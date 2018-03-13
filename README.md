@@ -50,7 +50,7 @@ Want to learn more?
 - dat://exploder-creationix.hashbase.io/
 - dat://conquest-creationix.hashbase.io/
   
-## Demo videos
+## Demos
 
 - Peer-to-peer livestreaming
   - https://twitter.com/louiscenter/status/954352023058698241
