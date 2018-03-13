@@ -49,6 +49,14 @@ Want to learn more?
 
 - dat://exploder-creationix.hashbase.io/
 - dat://conquest-creationix.hashbase.io/
+
+## Art
+
+- A lovely self-portrait in three parts
+  - http://olia.lialina.work/
+  - dat://f168ec921ba6ae102bde468ba7cb485d5cb71e4ac4f7b538f916f88e6638ba40/
+- Paintings by Dain Blodorn
+  - dat://4b001835c9ce02cd11a59dc888f115e833e41200da3a4eb0aeecb3e725ec5d4d/
   
 ## Demos
 
@@ -59,13 +67,15 @@ Want to learn more?
 
 - dat://peer-to-peer-web.com, community site for p2p web workshop events
 - dat://decentralizedweb.net, Decentralized Web Summit site
+- dat://datproject.org, Dat Project site
+- dat://beakerbrowser.com/, Beaker site
 - dat://taravancil.com
 - dat://pfrazee.hashbase.io
 - dat://jon-kyle.com/
-- dat://electro.pizza/2017/09/beaker-dat/
+- dat://electro.pizza/
 - dat://olegskl.com/
-- dat://datproject.org, Dat Project site
-- dat://beakerbrowser.com/, Beaker site
+- dat://alexisperrier.hashbase.io/
+- dat://dat-dissected.unassu.me/
 - dat://www-webdesserts.hashbase.io/
 - dat://dublab-jkm.hashbase.io/show
 - dat://crab-macoto.hashbase.io/, Create React App for Beaker
