@@ -1,6 +1,6 @@
 # Explore the peer-to-peer Web with Beaker
 
-A curated list of peer-to-peer websites and applications that run in the Beaker browser.
+A curated list of peer-to-peer websites and applications that run in the Beaker browser. Have we forgotten a project that should be included? Make a pull request or [file an issue](https://github.com/beakerbrowser/explore/issues) and we'll add it to the list!
 
 Want to learn more?
 
