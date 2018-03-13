@@ -31,11 +31,15 @@ Want to learn more?
   - https://pipette-dev-blog-jimpick.hashbase.io/post/introducing-pipette/
 - Netlify CMS
   - dat://netlify-cms-snapshot-1-jimpick.hashbase.io/
+- orkl
+  - dat://orkl-kodedninja.hashbase.io/how-to-use-orkl
   
 ## Other apps
 
 - TiddlyWiki
   - dat://base-tiddlywiki-jimpick.hashbase.io/
+- hypercast, peer-to-peer broadcasting
+  - https://github.com/louiscenter/hypercast
 - In-browser text editor
   - dat://editor-cryptic.hashbase.io/
 - Photos, create and share photo albums
@@ -63,6 +67,30 @@ Want to learn more?
 
 - Peer-to-peer livestreaming
   - https://twitter.com/louiscenter/status/954352023058698241
+  
+## Tutorials and explainers
+
+- An introduction to Dat's cryptography
+  - https://blog.datproject.org/2017/09/21/dat-cryptography/
+- How to host bots for Rotonde by Alexander Cobleigh
+  - https://cblgh.org/bots-on-dat.html
+- How to host a website using dat:// shortnames by Alexander Cobleigh
+  - https://cblgh.org/host-on-dat.html
+- How I publish taravancil.com on the peer-to-peer Web by Tara Vancil
+  - dat://taravancil.com/blog/how-i-publish-taravancil-com/
+  
+## Presentations
+
+- Making decentralized apps by Alexander Cobleigh
+  - https://www.youtube.com/watch?v=-0cgl6okmUs
+- Peer-to-peer Web / Los Angeles
+  - dat://peer-to-peer-web.com/los-angeles
+- Peer-to-peer Web / Berlin
+  dat://peer-to-peer-web.com/berlin
+- The peer-to-peer Web by Paul Frazee
+  - https://www.youtube.com/watch?v=4DFalocsoQo
+- The peer-to-peer Web by Paul Frazee and Tara Vancil
+  - https://www.youtube.com/watch?v=9tk9m_QIi2Q
   
 ## A 1990s Yahoo-style directory of peer-to-peer websites and blogs
 
