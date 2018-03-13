@@ -1,6 +1,6 @@
-# Explore the peer-to-peer Web
+# Explore the peer-to-peer Web with Beaker
 
-A curated list of peer-to-peer websites and applications built for Beaker.
+A curated list of peer-to-peer websites and applications that run in the Beaker browser.
 
 Want to learn more?
 
