@@ -101,11 +101,12 @@ Want to learn more?
 - dat://taravancil.com
 - dat://pfrazee.hashbase.io
 - dat://jon-kyle.com/
+- dat://www-webdesserts.hashbase.io/
 - dat://electro.pizza/
+- dat://lambdaphant.com/
 - dat://olegskl.com/
 - dat://alexisperrier.hashbase.io/
 - dat://dat-dissected.unassu.me/
-- dat://www-webdesserts.hashbase.io/
 - dat://dublab-jkm.hashbase.io/show
 - dat://crab-macoto.hashbase.io/, Create React App for Beaker
 - dat://coston.io/
