@@ -54,6 +54,7 @@ Want to learn more?
 - dat://exploder-creationix.hashbase.io/
 - dat://conquest-creationix.hashbase.io/
 - dat://256-farben-emanuelfeld.hashbase.io/
+- dat://sandermoolin.com/ld40/, http: the game
 
 ## Art
 
