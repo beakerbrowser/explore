@@ -115,3 +115,4 @@ Want to learn more?
 - dat://protozoa.nz/
 - dat://simple-sengming.hashbase.io/
 - dat://jhand.space
+- dat://reference.simplyedit.io/, developer reference for SimplyEdit
