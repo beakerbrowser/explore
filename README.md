@@ -118,3 +118,5 @@ Want to learn more?
 - dat://jhand.space
 - dat://reference.simplyedit.io/, developer reference for SimplyEdit
 - dat://sandermoolin.com/
+- dat://blog.kevinsuttle.hashbase.io
+- dat://boucheron.org/brian/
