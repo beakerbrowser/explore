@@ -121,3 +121,4 @@ Want to learn more?
 - dat://blog.kevinsuttle.hashbase.io
 - dat://boucheron.org/brian/
 - dat://full-stack-fest-2018-codegram.hashbase.io/
+- dat://chad.is/
