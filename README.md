@@ -122,3 +122,4 @@ Want to learn more?
 - dat://boucheron.org/brian/
 - dat://full-stack-fest-2018-codegram.hashbase.io/
 - dat://chad.is/
+- dat://about-dferber.hashbase.io/
