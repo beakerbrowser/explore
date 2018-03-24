@@ -124,3 +124,5 @@ Want to learn more?
 - dat://chad.is/
 - dat://about-dferber.hashbase.io/
 - dat://cats-tchoi8.hashbase.io/
+- dat://chatbots-lee2sman.hashbase.io/, a syllabus for studying and designing chatbots
+- dat://folder.studio
