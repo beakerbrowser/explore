@@ -20,8 +20,10 @@ Want to learn more?
   - https://github.com/beakerbrowser/fritter
 - Rotonde, a decentralized social network
   - https://github.com/Rotonde
-  
-## Blogging tools
+- Cover page creator for Fritter
+  - dat://profile-krismuniz.hashbase.io
+
+## Blogging/writing tools
 
 - Enoki, a tool for peer-to-per publishing
   - dat://enoki.site/
@@ -33,7 +35,9 @@ Want to learn more?
   - dat://netlify-cms-snapshot-1-jimpick.hashbase.io/
 - orkl
   - dat://orkl-kodedninja.hashbase.io/how-to-use-orkl
-  
+- solo
+  - https://solo-kodedninja.hashbase.io/
+
 ## Other apps
 
 - TiddlyWiki
@@ -48,13 +52,16 @@ Want to learn more?
   - dat://rotosearch-aeon.hashbase.io/
 - Dotgrid, in-browser SVG editor
   - dat://dotgrid-neauoire.hashbase.io/
-  
+- Word and character count tool
+  - dat://count-taravancil.hashbase.io/
+- GLTF to GLB packer
+  - dat://glb-packer-msfeldstein.hashbase.io/
+
 ## Games
 
 - dat://exploder-creationix.hashbase.io/
 - dat://conquest-creationix.hashbase.io/
 - dat://256-farben-emanuelfeld.hashbase.io/
-- dat://sandermoolin.com/ld40/, http: the game
 
 ## Art
 
@@ -63,12 +70,12 @@ Want to learn more?
   - dat://f168ec921ba6ae102bde468ba7cb485d5cb71e4ac4f7b538f916f88e6638ba40/
 - Paintings by Dain Blodorn
   - dat://4b001835c9ce02cd11a59dc888f115e833e41200da3a4eb0aeecb3e725ec5d4d/
-  
+
 ## Demos
 
 - Peer-to-peer livestreaming
   - https://twitter.com/louiscenter/status/954352023058698241
-  
+
 ## Tutorials and explainers
 
 - An introduction to Dat's cryptography
@@ -79,7 +86,7 @@ Want to learn more?
   - https://cblgh.org/host-on-dat.html
 - How I publish taravancil.com on the peer-to-peer Web by Tara Vancil
   - dat://taravancil.com/blog/how-i-publish-taravancil-com/
-  
+
 ## Presentations
 
 - Making decentralized apps by Alexander Cobleigh
@@ -92,7 +99,11 @@ Want to learn more?
   - https://www.youtube.com/watch?v=4DFalocsoQo
 - The peer-to-peer Web by Paul Frazee and Tara Vancil
   - https://www.youtube.com/watch?v=9tk9m_QIi2Q
-  
+
+## Developer tools
+
+- https://github.com/rjkip/webpack-dat
+
 ## A 1990s Yahoo-style directory of peer-to-peer websites and blogs
 
 - dat://peer-to-peer-web.com, community site for p2p web workshop events
@@ -128,3 +139,8 @@ Want to learn more?
 - dat://folder.studio
 - dat://whois-andrewchou.hashbase.io/
 - dat://distilled.pm
+- dat://www.krismuniz.com/
+- dat://hex22.org
+- dat://vjs-msfeldstein.hashbase.io/, WebGL demo
+- dat://journal-cpjobling.hashbase.io/, TiddlyWiki instance
+- dat://datsplit-gabrielpoca.hashbase.io/#/
