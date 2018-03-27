@@ -138,6 +138,7 @@ Want to learn more?
 - dat://chatbots-lee2sman.hashbase.io/, a syllabus for studying and designing chatbots
 - dat://folder.studio
 - dat://whois-andrewchou.hashbase.io/
+- dat://distilled.pm
 - dat://www.krismuniz.com/
 - dat://hex22.org
 - dat://vjs-msfeldstein.hashbase.io/, WebGL demo
