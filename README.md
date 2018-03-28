@@ -63,6 +63,10 @@ Want to learn more?
 - dat://conquest-creationix.hashbase.io/
 - dat://256-farben-emanuelfeld.hashbase.io/
 
+## Music
+
+- Drum machine, dat://drum-machine-from-glitch-mshook.hashbase.io/
+
 ## Art
 
 - A lovely self-portrait in three parts
