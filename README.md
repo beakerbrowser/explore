@@ -148,3 +148,5 @@ Want to learn more?
 - dat://vjs-msfeldstein.hashbase.io/, WebGL demo
 - dat://journal-cpjobling.hashbase.io/, TiddlyWiki instance
 - dat://datsplit-gabrielpoca.hashbase.io/#/
+- dat://3a2951bde3cfa30c70aeea436223b99862bfa2baad2b4d52d5ff8cad7ce43791/, aerial images from NOAA 18 Satellite (forewaring, contains large images)
+- dat://ismail.hashbase.io/
