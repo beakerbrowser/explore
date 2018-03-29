@@ -107,6 +107,8 @@ Want to learn more?
 
 ## Developer tools
 
+- ES module Dat utilities
+  - dat://utils-krismuniz.hashbase.io
 - https://github.com/rjkip/webpack-dat
 
 ## A 1990s Yahoo-style directory of peer-to-peer websites and blogs
