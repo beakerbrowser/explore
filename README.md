@@ -160,3 +160,4 @@ Want to learn more?
 - dat://datsplit-gabrielpoca.hashbase.io/#/
 - dat://3a2951bde3cfa30c70aeea436223b99862bfa2baad2b4d52d5ff8cad7ce43791/, aerial images from NOAA 18 Satellite (forewaring, contains large images)
 - dat://ismail.hashbase.io/
+- dat://tomjwatson.com/
