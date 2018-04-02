@@ -83,6 +83,9 @@ Want to learn more?
 
 ## Tutorials and explainers
 
+- Beaker: the frontend developer's dream browser
+  - https://staltz.com/beaker-frontend-dev-dream-browser/
+  - dat://603a92700145dc4b01ae902a58747b7f676862059ce44dfb7c0e59779b5648f8
 - An introduction to Dat's cryptography
   - https://blog.datproject.org/2017/09/21/dat-cryptography/
 - How to host bots for Rotonde by Alexander Cobleigh
@@ -91,6 +94,8 @@ Want to learn more?
   - https://cblgh.org/host-on-dat.html
 - How I publish taravancil.com on the peer-to-peer Web by Tara Vancil
   - dat://taravancil.com/blog/how-i-publish-taravancil-com/
+- p2p Web browsing with Beaker and Dat
+  - https://simpleit.us/2018/03/31/p2p-browsing-web-with-beaker-and-dat/
 
 ## Presentations
 
@@ -110,6 +115,8 @@ Want to learn more?
 - ES module Dat utilities
   - dat://utils-krismuniz.hashbase.io
 - https://github.com/rjkip/webpack-dat
+- forkup, package updater for forked p2p websites
+  - https://www.npmjs.com/package/forkup
 
 ## A 1990s Yahoo-style directory of peer-to-peer websites and blogs
 
