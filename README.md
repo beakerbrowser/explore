@@ -97,10 +97,12 @@ Want to learn more?
 - p2p Web browsing with Beaker and Dat
   - https://simpleit.us/2018/03/31/p2p-browsing-web-with-beaker-and-dat/
 
-## Presentations
+## Videos/presentations
 
 - Making decentralized apps by Alexander Cobleigh
   - https://www.youtube.com/watch?v=-0cgl6okmUs
+- The end of the cloud: a truly serverless Web, a fireside chat with Viktor Charypar and Paul Frazee
+  - https://www.youtube.com/watch?v=YFzr6vSNrrc&feature=share
 - Peer-to-peer Web / Los Angeles
   - dat://peer-to-peer-web.com/los-angeles
 - Peer-to-peer Web / Berlin
@@ -109,6 +111,8 @@ Want to learn more?
   - https://www.youtube.com/watch?v=4DFalocsoQo
 - The peer-to-peer Web by Paul Frazee and Tara Vancil
   - https://www.youtube.com/watch?v=9tk9m_QIi2Q
+- How Merkle trees enable the decentralized web by Tara Vancil
+  - https://www.youtube.com/watch?v=3giNelTfeAk
 
 ## Developer tools
 
