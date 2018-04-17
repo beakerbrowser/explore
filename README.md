@@ -8,6 +8,17 @@ Want to learn more?
 - [Read the Beaker docs](https://beakerbrowser.com/docs)
 - [Chat with us on IRC](https://webchat.freenode.net/?channels=beakerbrowser)
 
+## Events
+
+- Peer-to-peer Web Berlin / May 5, 2018
+  - https://peer-to-peer-web.com/berlin/2018-05-05
+- Peer-to-peer Web Los Angeles / April 28, 2018
+  - https://peer-to-peer-web.com/los-angeles/2018-04-28
+- ~~Peer-to-peer Web Berlin / February 10, 2018~~
+  - ~~https://peer-to-peer-web.com/berlin/2018-02-10~~
+- ~~Peer-to-peer Web Los Angeles / Decemeber 12, 2017~~
+  - ~~https://peer-to-peer-web.com/los-angeles/2017-12-10~~
+
 ## Peer-to-peer seeding services
 
 - Hashbase, help keep your files online
@@ -37,9 +48,13 @@ Want to learn more?
   - dat://orkl-kodedninja.hashbase.io/how-to-use-orkl
 - solo
   - https://solo-kodedninja.hashbase.io/
+- Archetype, an experimental system to organize and exhibit works of art on a peer-to-peer network
+  - dat://archetype.cc
 
 ## Other apps
 
+- Ridder, RSS reader
+  - dat://ridder-kodedninja.hashbase.io/
 - TiddlyWiki
   - dat://base-tiddlywiki-jimpick.hashbase.io/
 - hypercast, peer-to-peer broadcasting
@@ -56,6 +71,9 @@ Want to learn more?
   - dat://count-taravancil.hashbase.io/
 - GLTF to GLB packer
   - dat://glb-packer-msfeldstein.hashbase.io/
+- Outbox, chat app (WIP)
+  - https://twitter.com/rjsteinert/status/983164069778685952
+  - https://github.com/rjsteinert/outbox
 
 ## Games
 
@@ -86,19 +104,31 @@ Want to learn more?
 - Beaker: the frontend developer's dream browser
   - https://staltz.com/beaker-frontend-dev-dream-browser/
   - dat://603a92700145dc4b01ae902a58747b7f676862059ce44dfb7c0e59779b5648f8
+- Decentralising the Web with Dat and Beaker Browser
+  - https://tomjwatson.com/blog/decentralising-the-web/
 - An introduction to Dat's cryptography
   - https://blog.datproject.org/2017/09/21/dat-cryptography/
+
+### Put your website on the peer-to-peer Web
+
 - How to host bots for Rotonde by Alexander Cobleigh
   - https://cblgh.org/bots-on-dat.html
 - How to host a website using dat:// shortnames by Alexander Cobleigh
   - https://cblgh.org/host-on-dat.html
 - How I publish taravancil.com on the peer-to-peer Web by Tara Vancil
   - dat://taravancil.com/blog/how-i-publish-taravancil-com/
+- Publishing a GitHub pages website with Dat
+  - https://gist.github.com/pfrazee/8eb85d7bb33efb52c7d6d1a2e639d979
 - p2p Web browsing with Beaker and Dat
   - https://simpleit.us/2018/03/31/p2p-browsing-web-with-beaker-and-dat/
 
 ## Videos/presentations
 
+- We love peer-to-peer Web
+  - https://www.youtube.com/watch?v=rkJNsFZnoFQ
+- The end of the cloud: A truly serverless web - A fireside chat with Viktor Charypar and Paul Frazee
+  - https://www.youtube.com/watch?v=YFzr6vSNrrc
+- https://www.youtube.com/watch?v=YFzr6vSNrrc
 - Making decentralized apps by Alexander Cobleigh
   - https://www.youtube.com/watch?v=-0cgl6okmUs
 - The end of the cloud: a truly serverless Web, a fireside chat with Viktor Charypar and Paul Frazee
@@ -121,6 +151,8 @@ Want to learn more?
 - https://github.com/rjkip/webpack-dat
 - forkup, package updater for forked p2p websites
   - https://www.npmjs.com/package/forkup
+- Using webpack with Beaker and Dat
+  - https://twitter.com/KristianMuniz/status/983861395409207296
 
 ## A 1990s Yahoo-style directory of peer-to-peer websites and blogs
 
@@ -167,3 +199,9 @@ Want to learn more?
 - dat://tomjwatson.com/
 - oneohtrix point never website
   - dat://cbaf5d406d1c3435f73afef904523ec9f3ed8b4efd161521205ad3ee2ea85694/
+- SNAKES!
+  - dat://f0594740ee82b42e341b206d7998912351d8adadff7fa924eba40ebc1d91d45d/
+- dat://todrobbins.com/
+- dat://site-ollybromham.hashbase.io/
+- dat://leon.archetype.cc
+- dat://pixels.archetype.cc/
