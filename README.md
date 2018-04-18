@@ -14,7 +14,7 @@ Want to learn more?
   - https://peer-to-peer-web.com/berlin/2018-05-05
 - Peer-to-peer Web Los Angeles / April 28, 2018
   - https://peer-to-peer-web.com/los-angeles/2018-04-28
-- Peer-to-peer Web intro with [jon-kyle](dat://jon-kyle.com)
+- Peer-to-peer Web intro with [jon-kyle](dat://jon-kyle.com) / April 26, 2018
   - https://readme.gseis.ucla.edu/2018/04/02/spring-2018-readme-lab-hours/
 - ~~Peer-to-peer Web Berlin / February 10, 2018~~
   - ~~https://peer-to-peer-web.com/berlin/2018-02-10~~
