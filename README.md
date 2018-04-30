@@ -21,7 +21,7 @@ Want to learn more?
 - ~~Peer-to-peer Web Los Angeles / Decemeber 12, 2017~~
   - ~~https://peer-to-peer-web.com/los-angeles/2017-12-10~~
 
-- ## Podcasts
+## Podcasts
   - dat://dat-cast.hashbase.io/
 
 ## Peer-to-peer seeding services
