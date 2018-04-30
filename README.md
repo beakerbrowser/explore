@@ -12,14 +12,17 @@ Want to learn more?
 
 - Peer-to-peer Web Berlin / May 5, 2018
   - https://peer-to-peer-web.com/berlin/2018-05-05
-- Peer-to-peer Web Los Angeles / April 28, 2018
-  - https://peer-to-peer-web.com/los-angeles/2018-04-28
-- Peer-to-peer Web intro with [jon-kyle](dat://jon-kyle.com) / April 26, 2018
-  - https://readme.gseis.ucla.edu/2018/04/02/spring-2018-readme-lab-hours/
+- ~~Peer-to-peer Web Los Angeles / April 28, 2018~~
+  - ~~https://peer-to-peer-web.com/los-angeles/2018-04-28~~
+- ~~Peer-to-peer Web intro with [jon-kyle](dat://jon-kyle.com) / April 26, 2018~~
+  - ~~https://readme.gseis.ucla.edu/2018/04/02/spring-2018-readme-lab-hours/~~
 - ~~Peer-to-peer Web Berlin / February 10, 2018~~
   - ~~https://peer-to-peer-web.com/berlin/2018-02-10~~
 - ~~Peer-to-peer Web Los Angeles / Decemeber 12, 2017~~
   - ~~https://peer-to-peer-web.com/los-angeles/2017-12-10~~
+
+- ## Podcasts
+  - dat://dat-cast.hashbase.io/
 
 ## Peer-to-peer seeding services
 
@@ -55,6 +58,8 @@ Want to learn more?
 
 ## Other apps
 
+- PIXEL-EYEZ, convert images to PXON
+  - dat://pixel-eyez-taravancil.hashbase.io/
 - Ridder, RSS reader
   - dat://ridder-kodedninja.hashbase.io/
 - TiddlyWiki
@@ -82,6 +87,13 @@ Want to learn more?
 - dat://exploder-creationix.hashbase.io/
 - dat://conquest-creationix.hashbase.io/
 - dat://256-farben-emanuelfeld.hashbase.io/
+- dat://games-summit.hashbase.io/asteroids.html
+- dat://games-summit.hashbase.io/downhillracer.html
+- dat://games-summit.hashbase.io/flatris.html
+- dat://games-summit.hashbase.io/pong.html
+- dat://games-summit.hashbase.io/snake.html
+- dat://games-summit.hashbase.io/pass16/index.html
+- dat://games-summit.hashbase.io/pass17/index.html
 
 ## Music
 
@@ -148,6 +160,8 @@ Want to learn more?
 
 ## Developer tools
 
+- "particular nanocomponents for websites"
+  - dat://mono.equipment/i
 - ES module Dat utilities
   - dat://utils-krismuniz.hashbase.io
 - https://github.com/rjkip/webpack-dat
@@ -207,3 +221,5 @@ Want to learn more?
 - dat://site-ollybromham.hashbase.io/
 - dat://leon.archetype.cc
 - dat://pixels.archetype.cc/
+- dat://everything-devolves-into-silly-words-faebser.hashbase.io/
+- dat://open-watchtor.hashbase.io/
