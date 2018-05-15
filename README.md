@@ -161,7 +161,7 @@ Want to learn more?
 ## Developer tools
 
 - "particular nanocomponents for websites"
-  - dat://mono.equipment/i
+  - dat://mono.equipment/
 - ES module Dat utilities
   - dat://utils-krismuniz.hashbase.io
 - https://github.com/rjkip/webpack-dat
