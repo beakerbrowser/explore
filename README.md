@@ -142,11 +142,8 @@ Want to learn more?
   - https://www.youtube.com/watch?v=rkJNsFZnoFQ
 - The end of the cloud: A truly serverless web - A fireside chat with Viktor Charypar and Paul Frazee
   - https://www.youtube.com/watch?v=YFzr6vSNrrc
-- https://www.youtube.com/watch?v=YFzr6vSNrrc
 - Making decentralized apps by Alexander Cobleigh
   - https://www.youtube.com/watch?v=-0cgl6okmUs
-- The end of the cloud: a truly serverless Web, a fireside chat with Viktor Charypar and Paul Frazee
-  - https://www.youtube.com/watch?v=YFzr6vSNrrc&feature=share
 - Peer-to-peer Web / Los Angeles
   - dat://peer-to-peer-web.com/los-angeles
 - Peer-to-peer Web / Berlin
@@ -161,7 +158,7 @@ Want to learn more?
 ## Developer tools
 
 - "particular nanocomponents for websites"
-  - dat://mono.equipment/i
+  - dat://mono.equipment/
 - ES module Dat utilities
   - dat://utils-krismuniz.hashbase.io
 - https://github.com/rjkip/webpack-dat
