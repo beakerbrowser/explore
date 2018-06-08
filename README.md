@@ -83,6 +83,8 @@ Want to learn more?
 - Outbox, chat app (WIP)
   - https://twitter.com/rjsteinert/status/983164069778685952
   - https://github.com/rjsteinert/outbox
+- Remark template, fork it to create your own presentations using [remarkjs](https://remarkjs.com)
+  - dat://remark-rangermauve.hashbase.io/
 
 ## Games
 
