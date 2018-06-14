@@ -184,7 +184,6 @@ Want to learn more?
 - dat://olegskl.com/
 - dat://alexisperrier.hashbase.io/
 - dat://dat-dissected.unassu.me/
-- dat://dublab-jkm.hashbase.io/show
 - dat://crab-macoto.hashbase.io/, Create React App for Beaker
 - dat://coston.io/
 - dat://albertovalzgris.hashbase.io/
