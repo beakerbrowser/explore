@@ -221,3 +221,4 @@ Want to learn more?
 - dat://pixels.archetype.cc/
 - dat://everything-devolves-into-silly-words-faebser.hashbase.io/
 - dat://open-watchtor.hashbase.io/
+- dat://etho.tk
