@@ -57,6 +57,8 @@ Want to learn more?
   - https://solo-kodedninja.hashbase.io/
 - Archetype, an experimental system to organize and exhibit works of art on a peer-to-peer network
   - dat://archetype.cc
+- linksteam, a place to save links during meetups, working sessions, or talks.
+  - dat://linkstream.hashbase.io/
 
 ## Other apps
 
