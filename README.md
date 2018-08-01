@@ -24,8 +24,7 @@ Want to learn more?
   - ~~https://peer-to-peer-web.com/los-angeles/2017-12-10~~
 
 ## Podcasts
-
-- dat://dat-cast.hashbase.io/
+  - dat://dat-cast.hashbase.io/
 
 ## Peer-to-peer seeding services
 
