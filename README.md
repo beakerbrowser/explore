@@ -222,3 +222,4 @@ Want to learn more?
 - dat://everything-devolves-into-silly-words-faebser.hashbase.io/
 - dat://open-watchtor.hashbase.io/
 - dat://etho.tk
+- dat://p2p.werd.io
