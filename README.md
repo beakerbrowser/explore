@@ -224,3 +224,4 @@ Want to learn more?
 - dat://etho.tk
 - dat://p2p.nearform.com/, NearForm's corporate site
 - dat://p2p.clinicjs.org/, Node Clinic - An Open Source Node.js performance profiling suite by NearForm
+- dat://p2p.werd.io
