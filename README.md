@@ -223,6 +223,7 @@ Want to learn more?
 - dat://pixels.archetype.cc/
 - dat://everything-devolves-into-silly-words-faebser.hashbase.io/
 - dat://open-watchtor.hashbase.io/
+- dat://scott.ee/
 - dat://etho.tk
 - dat://p2p.nearform.com/, NearForm's corporate site
 - dat://p2p.clinicjs.org/, Node Clinic - An Open Source Node.js performance profiling suite by NearForm
