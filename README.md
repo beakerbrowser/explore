@@ -57,6 +57,8 @@ Want to learn more?
   - https://solo-kodedninja.hashbase.io/
 - Archetype, an experimental system to organize and exhibit works of art on a peer-to-peer network
   - dat://archetype.cc
+- linksteam, a place to save links during meetups, working sessions, or talks.
+  - dat://linkstream.hashbase.io/
 
 ## Other apps
 
@@ -222,3 +224,7 @@ Want to learn more?
 - dat://everything-devolves-into-silly-words-faebser.hashbase.io/
 - dat://open-watchtor.hashbase.io/
 - dat://scott.ee/
+- dat://etho.tk
+- dat://p2p.nearform.com/, NearForm's corporate site
+- dat://p2p.clinicjs.org/, Node Clinic - An Open Source Node.js performance profiling suite by NearForm
+- dat://p2p.werd.io
