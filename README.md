@@ -230,3 +230,4 @@ Want to learn more?
 - dat://p2p.nearform.com/, NearForm's corporate site
 - dat://p2p.clinicjs.org/, Node Clinic - An Open Source Node.js performance profiling suite by NearForm
 - dat://p2p.werd.io
+- dat://rangermauve.hashbase.io/ @RangerMauve 's blog - Talks about Dat internals
