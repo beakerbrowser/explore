@@ -4,7 +4,6 @@ A curated list of peer-to-peer websites and applications that run in the Beaker 
 
 Want to learn more?
 
-- [Install Beaker](https://beakerbrowser.com/docs/install)
 - [Read the Beaker docs](https://beakerbrowser.com/docs)
 - [Chat with us on IRC](https://webchat.freenode.net/?channels=beakerbrowser)
 
