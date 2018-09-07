@@ -7,21 +7,6 @@ Want to learn more?
 - [Read the Beaker docs](https://beakerbrowser.com/docs)
 - [Chat with us on IRC](https://webchat.freenode.net/?channels=beakerbrowser)
 
-## Events
-
-- Hands-on with Beaker Browser, Berlin / May 31, 2018
-  - https://twitter.com/louiscenter/status/996014295522607104
-- ~~Peer-to-peer Web Berlin / May 5, 2018~~
-  - ~~https://peer-to-peer-web.com/berlin/2018-05-05~~
-- ~~Peer-to-peer Web Los Angeles / April 28, 2018~~
-  - ~~https://peer-to-peer-web.com/los-angeles/2018-04-28~~
-- ~~Peer-to-peer Web intro with [jon-kyle](dat://jon-kyle.com) / April 26, 2018~~
-  - ~~https://readme.gseis.ucla.edu/2018/04/02/spring-2018-readme-lab-hours/~~
-- ~~Peer-to-peer Web Berlin / February 10, 2018~~
-  - ~~https://peer-to-peer-web.com/berlin/2018-02-10~~
-- ~~Peer-to-peer Web Los Angeles / Decemeber 12, 2017~~
-  - ~~https://peer-to-peer-web.com/los-angeles/2017-12-10~~
-
 ## Podcasts
   - dat://dat-cast.hashbase.io/
 
