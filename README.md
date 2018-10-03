@@ -71,6 +71,9 @@ Want to learn more?
   - https://github.com/rjsteinert/outbox
 - Remark template, fork it to create your own presentations using [remarkjs](https://remarkjs.com)
   - dat://remark-rangermauve.hashbase.io/
+- Federated Wiki
+  - dat://federated-wiki-client.hashbase.io/
+  - https://github.com/paul90/wiki-client-dat-variant
 
 ## Games
 
