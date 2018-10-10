@@ -388,6 +388,10 @@ h2 {
   background: #ddd;
 }
 
+.entry.lightgray {
+  background: #eee;
+}
+
 .entry-content[data-label]:before {
   content: attr(data-label);
   display: block;
