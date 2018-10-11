@@ -147,8 +147,6 @@ body {
 .subheader,
 #content {
   margin: 0px auto;
-  min-width: 850px;
-  max-width: 1000px;
   margin-bottom: 10px;
 }
 
@@ -425,12 +423,10 @@ a.entry:hover .entry-title {
 
 .entries.profiles {
   grid-template-columns: repeat(auto-fill, minmax(150px, 2fr));  
-  padding-top: 20px;
 }
 
 .entry.profile {
   text-align: center;
-  border: 0;
   padding: 20px 0 0;
 }
 
@@ -443,14 +439,10 @@ a.entry:hover .entry-title {
 
 /* guides */
 
-.guides {
-  padding: 10px 0;
-}
 
 .guide {
   grid-column: auto / span 4;
   padding: 20px 0;
-  border-top: 1px dashed #ccc;
 }
 
 .guide .entry-content {
