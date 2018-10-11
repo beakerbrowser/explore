@@ -177,7 +177,7 @@ body {
 .entries {
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
+  grid-template-columns: repeat(auto-fill, minmax(210px, 2fr));
   margin-bottom: 40px;
 }
 .entries.dashborder {
@@ -422,7 +422,7 @@ a.entry:hover .entry-title {
 /* profiles */
 
 .entries.profiles {
-  grid-template-columns: repeat(auto-fill, minmax(150px, 2fr));  
+  grid-template-columns: repeat(auto-fill, minmax(150px, 2fr));
 }
 
 .entry.profile {
@@ -442,7 +442,7 @@ a.entry:hover .entry-title {
 
 .guide {
   grid-column: auto / span 4;
-  padding: 20px 0;
+  padding: 40px 0;
 }
 
 .guide .entry-content {
