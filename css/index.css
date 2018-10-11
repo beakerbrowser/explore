@@ -292,6 +292,7 @@ a.entry:hover .entry-title {
 
 .entry.border:hover {
   border: 1px solid #111;
+  background: #eee;
 }
 
 .entry.darkborder {
@@ -332,13 +333,6 @@ a.entry:hover .entry-title {
   border-top: 1px solid #ccc;
 }
 
-.entry.livestream {
-  margin: 4px 0 30px;
-}
-
-.entry.livestream:hover {
-  background: #eee;
-}
 
 .entry.livestream:hover .entry-title {
   text-decoration: none;
@@ -482,10 +476,4 @@ a.entry:hover .entry-title {
 
 .guide.adder {
   padding: 40px 0;
-}
-
-/* categories */
-
-.category {
-  margin-top: 20px;
 }
