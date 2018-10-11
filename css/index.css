@@ -392,12 +392,12 @@ h2 {
 
 /* dat support modifier */
 
-.nodat .entry[href^="dat://"] .entry-content {
+.nodat .entry[href^="dat://"]:hover .entry-content {
   position: relative;
   opacity: 0.25;
 }
 
-.nodat .entry[href^="dat://"]:before {
+.nodat .entry[href^="dat://"]:hover:before {
   content: 'Requires the Beaker browser to view';
   position: absolute;
   top: 0;
