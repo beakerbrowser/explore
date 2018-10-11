@@ -227,45 +227,6 @@ h2 {
   font-size: 28px;
 }
 
-.color-card {
-  padding: 80px 30px 40px;
-}
-.color-card.pink {
-  background: #E91E63;
-  color: #fff;
-  border: 5px solid #bb1950;
-}
-.color-card.blue {
-  background: #2196F3;
-  color: #fff;
-  border: 5px solid #1d70b3;
-}
-
-.color-card > * {
-  padding: 0 !important;
-}
-
-.color-card h3 {
-  font-size: 22px;
-}
-
-.color-card:hover h3 {
-  text-decoration: underline;
-}
-
-.color-card p {
-  -webkit-font-smoothing: antialiased;
-  font-weight: 500;
-}
-
-.color-card > :first-child {
-  margin-top: 0;
-}
-
-.color-card > :last-child {
-  margin-bottom: 0;
-}
-
 /* entries */
 
 .entry {
@@ -326,6 +287,15 @@ h2 {
 
 .entry.adder .entry-img {
   border: 0 !important;
+}
+
+.entry.big .entry-content {
+  padding: 130px 10px 0;
+}
+
+.entry.big h3 {
+  font-size: 50px;
+  margin: 0;
 }
 
 .entry.border {
@@ -390,6 +360,24 @@ h2 {
 
 .entry.lightgray {
   background: #eee;
+}
+
+.entry.pink {
+  background: #E91E63;
+  color: #fff;
+  border: 5px solid #bb1950;
+}
+
+.entry.green {
+  background: #71a734;
+  border: 5px solid #528814;
+  color: #ffffff;
+}
+
+.entry.blue {
+  background: #2196F3;
+  color: #fff;
+  border: 5px solid #1d70b3;
 }
 
 .entry-content[data-label]:before {
