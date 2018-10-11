@@ -13,6 +13,7 @@ window.addEventListener('load', function () {
 
 window.addEventListener('hashchange', function () {
   setCategory(location.hash)
+  window.scrollTo(0,0)
 })
 
 function setCategory (v) {

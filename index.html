@@ -26,13 +26,13 @@
       <h1>Explore</h1>
       <nav>
         <a href="#whats-new">whats new</a>
-        <a href="#homepages">home pages</a>
-        <!--<a href="#guides">guides</a>-->
-        <!--<a href="#talks-and-casts">talks &amp; podcasts</a>-->
+        <a href="#guides">guides</a>
+        <a href="#blog-posts-and-talks">blog posts and talks</a>
+        <a href="#homepages">user pages</a>
         <!--<a href="#modules">code modules</a>-->
-        <a href="#music">music</a>
-        <a href="#decentralization">decentralization</a>
-        <a href="#web-art">web art</a>
+        <a href="#music">albums</a>
+        <a href="#apps">apps</a>
+        <!--<a href="#web-art">web art</a>-->
         <!--<a href="#events">events</a>-->
       </nav>
     </div>
@@ -41,16 +41,55 @@
       <!-- whats-new -->
       <div id="content-whats-new" class="content">
         <div class="entries">
-          <a class="entry col2 blue big" href="https://hashbase.io" target="_blank">
+          <div class="entry col4 blue big" href="https://hashbase.io" target="_blank">
             <div class="entry-content">
               <div class="entry-desc">
-                <h3 class="entry-title">Hashbase.io</h3>
-                <p class="entry-description">Keep your dats online when Beaker is off.</p>
+                <h3 class="entry-title">Explore the p2p Web</h3>
+                <p class="entry-description">Find the latest content on dat://</p>
+              </div>
+            </div>
+          </div>
+          <a class="entry" href="dat://dead-lite.hashbase.io/" target="_blank">
+            <div class="entry-content" data-label="app">
+              <div class="entry-desc">
+                <h3 class="entry-title">dead-lite</h3>
+                <p class="entry-description">blogging / tumblog / content manufacturing device</p>
               </div>
             </div>
           </a>
-          <a class="entry darkborder fixheight stretch" href="dat://fritter.hashbase.io" target="_blank">
-            <div class="entry-content">
+          <a class="entry" href="dat://ridder-kodedninja.hashbase.io/" target="_blank">
+            <div class="entry-content" data-label="app">
+              <div class="entry-desc">
+                <h3 class="entry-title">Ridder</h3>
+                <p class="entry-description">An RSS reader that you own</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry" href="dat://dotgrid-neauoire.hashbase.io/" target="_blank">
+            <div class="entry-content" data-label="app">
+              <div class="entry-desc">
+                <h3 class="entry-title">dotgrid</h3>
+                <p class="entry-description">SVG icon tool</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry" href="dat://solo-kodedninja.hashbase.io/" target="_blank">
+            <div class="entry-content" data-label="app">
+              <div class="entry-desc">
+                <h3 class="entry-title">solo</h3>
+                <p class="entry-description">The simplest publishing tool</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry border col4 livestream" href="https://www.youtube.com/channel/UCSkcL4my2wgDRFvjQOJzrlg" target="_blank">
+            <div class="entry-content" data-label="guide">
+              <div class="entry-desc">
+                <h3 class="entry-title"><span class="record">&bull;</span> Beaker weekly live-stream <small>Every Sunday at 2pm CST</small></h3>
+              </div>
+            </div>
+          </a>
+          <a class="entry col2" href="dat://fritter.hashbase.io" target="_blank" style="text-align: center; margin-bottom: 20px">
+            <div class="entry-content" data-label="app">
               <img class="entry-img" src="/images/fritter.png">
               <div class="entry-desc">
                 <h3 class="entry-title">Fritter</h3>
@@ -58,26 +97,8 @@
               </div>
             </div>
           </a>
-          <a class="entry darkborder fixheight stretch" href="dat://ridder-kodedninja.hashbase.io/" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="/images/ridder.png">
-              <div class="entry-desc">
-                <h3 class="entry-title">Ridder</h3>
-                <p class="entry-description">An RSS reader that you own</p>
-              </div>
-            </div>
-          </a>
-          <a class="entry darkborder fixheight stretch" href="dat://dotgrid-neauoire.hashbase.io/" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="/images/dotgrid.png">
-              <div class="entry-desc">
-                <h3 class="entry-title">dotgrid</h3>
-                <p class="entry-description">SVG icon tool</p>
-              </div>
-            </div>
-          </a>
-          <a class="entry darkborder fixheight stretch" href="dat://editor-cryptic.hashbase.io/" target="_blank">
-            <div class="entry-content">
+          <a class="entry col2" href="dat://editor-cryptic.hashbase.io/" target="_blank" style="text-align: center; margin-bottom: 20px">
+            <div class="entry-content" data-label="app">
               <img class="entry-img" src="/images/editor-cryptic.png">
               <div class="entry-desc">
                 <h3 class="entry-title">Files editor</h3>
@@ -85,34 +106,116 @@
               </div>
             </div>
           </a>
-          <a class="entry pink" href="dat://solo-kodedninja.hashbase.io/" target="_blank">
+          <a class="entry gray category" href="#guides">
             <div class="entry-content">
+              <div class="entry-desc">
+                <h3 class="entry-title">Guides</h3>
+              </div>
+            </div>
+          </a>
+          <a class="entry gray category" href="#homepages">
+            <div class="entry-content">
+              <div class="entry-desc">
+                <h3 class="entry-title">User pages</h3>
+              </div>
+            </div>
+          </a>
+          <a class="entry gray category" href="#music">
+            <div class="entry-content">
+              <div class="entry-desc">
+                <h3 class="entry-title">Albums</h3>
+              </div>
+            </div>
+          </a>
+          <a class="entry gray category" href="#apps">
+            <div class="entry-content">
+              <div class="entry-desc">
+                <h3 class="entry-title">Apps</h3>
+              </div>
+            </div>
+          </a>
+          <a class="entry gray category" href="#blog-posts-and-talks">
+            <div class="entry-content">
+              <div class="entry-desc">
+                <h3 class="entry-title">Blog posts</h3>
+              </div>
+            </div>
+          </a>
+          <a class="entry gray category" href="#blog-posts-and-talks">
+            <div class="entry-content">
+              <div class="entry-desc">
+                <h3 class="entry-title">Talks</h3>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- apps -->
+      <div id="content-apps" class="content entries">
+          <a class="entry border fixheight stretch" href="dat://fritter.hashbase.io" target="_blank">
+            <div class="entry-content" data-label="app">
+              <img class="entry-img" src="/images/fritter.png">
+              <div class="entry-desc">
+                <h3 class="entry-title">Fritter</h3>
+                <p class="entry-description">A p2p social networking app</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry border fixheight stretch" href="dat://ridder-kodedninja.hashbase.io/" target="_blank">
+            <div class="entry-content" data-label="app">
+              <img class="entry-img" src="/images/ridder.png">
+              <div class="entry-desc">
+                <h3 class="entry-title">Ridder</h3>
+                <p class="entry-description">An RSS reader that you own</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry border fixheight stretch" href="dat://dotgrid-neauoire.hashbase.io/" target="_blank">
+            <div class="entry-content" data-label="app">
+              <img class="entry-img" src="/images/dotgrid.png">
+              <div class="entry-desc">
+                <h3 class="entry-title">dotgrid</h3>
+                <p class="entry-description">SVG icon tool</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry border fixheight stretch" href="dat://editor-cryptic.hashbase.io/" target="_blank">
+            <div class="entry-content" data-label="app">
+              <img class="entry-img" src="/images/editor-cryptic.png">
+              <div class="entry-desc">
+                <h3 class="entry-title">Files editor</h3>
+                <p class="entry-description">In-browser editor for dat:// files</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry border" href="dat://solo-kodedninja.hashbase.io/" target="_blank">
+            <div class="entry-content" data-label="app">
               <div class="entry-desc">
                 <h3 class="entry-title">solo</h3>
                 <p class="entry-description">The simplest publishing tool</p>
               </div>
             </div>
           </a>
-          <a class="entry darkborder" href="dat://dead-lite.hashbase.io/" target="_blank">
-            <div class="entry-content">
+          <a class="entry border" href="dat://dead-lite.hashbase.io/" target="_blank">
+            <div class="entry-content" data-label="app">
               <div class="entry-desc">
                 <h3 class="entry-title">dead-lite</h3>
                 <p class="entry-description">blogging / tumblog / content manufacturing device</p>
               </div>
             </div>
           </a>
-          <a class="entry green" href="https://github.com/louiscenter/hypercast" target="_blank">
-            <div class="entry-content">
+          <a class="entry border" href="https://github.com/louiscenter/hypercast" target="_blank">
+            <div class="entry-content" data-label="tool">
               <div class="entry-desc">
                 <h3 class="entry-title">hypercast</h3>
                 <p class="entry-description">A tool for broadcasting p2p video streams</p>
               </div>
             </div>
           </a>
-          <a class="entry fixheight adder" href="https://github.com/beakerbrowser/explore/blob/master/add.md" target="_blank">
+          <a class="entry adder" href="https://github.com/beakerbrowser/explore/blob/master/add.md" target="_blank">
             <div class="entry-content">
               <div class="entry-desc">
-                <h5 class="entry-title">&raquo; Add yours &laquo;</h5>
+                <h3 class="entry-title">&raquo; Add yours &laquo;</h3>
               </div>
             </div>
           </a>
@@ -361,76 +464,38 @@
           </a>
         </div>
       </div>
-      <!-- talks-and-casts -->
-      <div id="content-talks-and-casts" class="content entries">
-        <a class="entry toppad" href="dat://dat-cast.hashbase.io" target="_blank">
-          <div class="entry-content">
-            <img class="entry-img" src="/images/datcast.jpg">
-            <div class="entry-desc">
-              <h5 class="entry-title">Datcast</h5>
-              <p class="entry-description">A podcast series by Bret Comnes and Jim Pick</p>
-            </div>
-          </div>
-        </a>
-        <a class="entry" href="https://www.youtube.com/channel/UCSkcL4my2wgDRFvjQOJzrlg" target="_blank">
-          <div class="entry-content">
-            <div class="entry-desc">
-              <h5 class="entry-title">Beaker Browser weekly livestream</h5>
-            </div>
-          </div>
-        </a>
-        <a class="entry" href="dat://distilled.pm" target="_blank">
-          <div class="entry-content">
-            <div class="entry-desc">
-              <h5 class="entry-title">A New Kind of Ownership</h5>
-            </div>
-          </div>
-        </a>
-      </div>
-      <!-- decentralization -->
-      <div id="content-decentralization" class="content">
+      <!-- posts-pods-talks -->
+      <div id="content-blog-posts-and-talks" class="content">
         <div class="entries">
-          <a class="entry darkborder stretch" href="https://infocivics.com" target="_blank">
-            <div class="entry-content" data-label="essay">
-              <img class="entry-img" src="/images/statue-of-liberty.jpg">
+          <a class="entry article border col3 horz" href="https://www.youtube.com/watch?v=rJ_WvfF3FN8" target="_blank">
+            <div class="entry-content">
+              <img class="entry-img" src="/images/imagine-this.png">
               <div class="entry-desc">
-                <h5 class="entry-title">Information Civics</h5>
+                <h3 class="entry-title">Imagine this: a Web without servers</h3>
+                <p class="entry-description">The Web was envisioned as an open platform for publishing and sharing information, but that vision has been lost: most people will never publish independently on the Web. What went wrong?</p>
               </div>
             </div>
           </a>
-          <a class="entry darkborder stretch" href="https://www.youtube.com/watch?v=rJ_WvfF3FN8" target="_blank">
+          <a class="entry article border fixheight" href="https://www.youtube.com/watch?v=-ep0ZIe6i10" target="_blank">
             <div class="entry-content" data-label="talk">
-              <img class="entry-img" src="/images/rainbow.png">
+              <img class="entry-img" src="/images/pdxnode.png">
               <div class="entry-desc">
-                <h5 class="entry-title">Imagine this: a Web without servers</h5>
+                <h5 class="entry-title">The Peer-to-Peer Web</h5>
+                <p class="entry-description">Talk by Paul Frazee, given at PDXNode on September 14th, 2017.</p>
               </div>
             </div>
           </a>
-          <a class="entry darkborder" href="https://www.youtube.com/watch?v=x-ffpAkviM0" target="_blank">
-            <div class="entry-content" data-label="talk">
-              <img class="entry-img" src="/images/state-of-nature.png">
+          <div class="entry gray"><!--empty--></div>
+          <a class="entry article border fixheight" href="dat://dat-cast.hashbase.io" target="_blank">
+            <div class="entry-content" data-label="podcast">
+              <img class="entry-img" src="/images/datcast.jpg">
               <div class="entry-desc">
-                <h5 class="entry-title">Formalizing user rights on the Web</h5>
+                <h5 class="entry-title">Datcast</h5>
+                <p class="entry-description">A podcast series by Bret Comnes and Jim Pick</p>
               </div>
             </div>
           </a>
-          <a class="entry darkborder" href="https://ar.al/2018/08/04/multiwriter-dat-could-power-the-next-web/" target="_blank">
-            <div class="entry-content" data-label="essay">
-              <img class="entry-img" src="/images/could-power-the-next-web.png">
-              <div class="entry-desc">
-                <h5 class="entry-title">Multi-writer Dat could power the next Web</h5>
-              </div>
-            </div>
-          </a>
-          <a class="entry darkborder" href="dat://peer-to-peer-web.com/content/los-angeles/2017-12-10/media/03-tara-vancil.mp4" target="_blank">
-            <div class="entry-content" data-label="talk">
-              <img class="entry-img" src="/images/arpanet.png">
-              <div class="entry-desc">
-                <h5 class="entry-title">A brief history of the Web</h5>
-              </div>
-            </div>
-          </a>
-          <a class="entry darkborder" href="https://changelog.com/jsparty/42" target="_blank">
+          <a class="entry article border" href="https://changelog.com/jsparty/42" target="_blank">
             <div class="entry-content" data-label="podcast">
               <img class="entry-img" src="/images/jsparty.png">
               <div class="entry-desc">
@@ -438,11 +503,48 @@
               </div>
             </div>
           </a>
-          <a class="entry darkborder" href="dat://peer-to-peer-web.com/content/nyc/2018-05-26/videos/hugh-isaacs.mp4" target="_blank">
-            <div class="entry-content" data-label="talk">
-              <img class="entry-img" src="/images/zombie.png">
+          <div class="entry gray"><!--empty--></div>
+          <a class="entry article border col2 horz" href="https://pfrazee.hashbase.io/blog/why-p2p-deserves-another-chance" target="_blank">
+            <div class="entry-content">
+              <img class="entry-img" src="/images/why-p2p-deserves-another-chance.png">
               <div class="entry-desc">
-                <h5 class="entry-title">Hypothetical zombie apocalypses and the p2p Web</h5>
+                <h3 class="entry-title">Why P2P deserves another chance</h3>
+                <p class="entry-description"> When the cloud went mainstream, P2P tech got overlooked. Rather than trying to fix blockchains, we should be looking at P2P again.</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry article border" href="https://ar.al/2018/08/04/multiwriter-dat-could-power-the-next-web/" target="_blank">
+            <div class="entry-content" data-label="post">
+              <img class="entry-img" src="/images/could-power-the-next-web.png">
+              <div class="entry-desc">
+                <h5 class="entry-title">Multi-writer Dat could power the next Web</h5>
+              </div>
+            </div>
+          </a>
+          <a class="entry article border fixheight stretch" href="https://pfrazee.hashbase.io/blog/dat-and-servers" target="_blank">
+            <div class="entry-content" data-label="post">
+              <img class="entry-img" src="/images/global-fetch-prompt.png">
+              <div class="entry-desc">
+                <h5 class="entry-title">How do dat:// sites interact with servers?</h5>
+                <p class="entry-description">What are the tools for accessing https services from dat?</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry article border fixheight stretch" href="https://infocivics.com" target="_blank">
+            <div class="entry-content" data-label="essay">
+              <img class="entry-img" src="/images/statue-of-liberty.jpg">
+              <div class="entry-desc">
+                <h5 class="entry-title">Information Civics</h5>
+                <p class="entry-description">To change the distribution of authority, we should study how authority works.</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry article border fixheight stretch" href="https://www.youtube.com/watch?v=x-ffpAkviM0" target="_blank">
+            <div class="entry-content" data-label="talk">
+              <img class="entry-img" src="/images/state-of-nature.png">
+              <div class="entry-desc">
+                <h5 class="entry-title">Formalizing user rights on the Web</h5>
+                <p class="entry-description">How do we moderate our spaces without falling into censorship?</p>
               </div>
             </div>
           </a>
@@ -457,32 +559,67 @@
         </div>
       </div>
       <!-- guides -->
-      <div id="content-guides" class="content entries">
-        <a class="entry" href="dat://taravancil.com/blog/how-i-publish-taravancil-com/" target="_blank">
-          <div class="entry-content">
+      <div id="content-guides" class="content entries guides">
+        <a class="entry horz guide" href="https://beakerbrowser.com/docs/guides/publish-a-peer-to-peer-website#publish-a-website-with-beaker" target="_blank">
+          <div class="entry-content" data-label="tutorial">
+            <img class="entry-img" src="/images/create-website.png">
             <div class="entry-desc">
-              <h5 class="entry-title">How I publish taravancil.com</h5>
+              <h3 class="entry-title">Publish a website with Beaker</h3>
+              <p class="entry-description">How to publish new peer-to-peer websites using Beaker's builtin tools.</p>
             </div>
           </div>
         </a>
-        <a class="entry" href="dat://ricky.codes/blog/posts/publishing-to-the-peer-to-peer-web/" target="_blank">
-          <div class="entry-content">
+        <a class="entry horz guide" href="https://beakerbrowser.com/docs/guides/create-a-markdown-site" target="_blank">
+          <div class="entry-content" data-label="tutorial">
+            <img class="entry-img" src="/images/markdown.png">
             <div class="entry-desc">
-              <h5 class="entry-title">Publishing my Website to the peer-to-peer Web</h5>
+              <h3 class="entry-title">Create a markdown site</h3>
+              <p class="entry-description">Create Websites in Beaker using only markdown.</p>
             </div>
           </div>
         </a>
-        <a class="entry" href="https://hacks.mozilla.org/2018/08/dweb-serving-the-web-from-the-browser-with-beaker/" target="_blank">
-          <div class="entry-content">
+        <a class="entry horz guide" href="dat://taravancil.com/blog/how-i-publish-taravancil-com/" target="_blank">
+          <div class="entry-content" data-label="guide">
+            <img class="entry-img" src="/images/how-i-publish-taravancil-com.png">
             <div class="entry-desc">
-              <h5 class="entry-title">Serving the Web from the Browser with Beaker</h5>
+              <h3 class="entry-title">How I publish taravancil.com</h3>
+              <p class="entry-description">A guide to publishing a p2p website from the command-line using Hugo, Homebase, and the Dat CLI.</p>
             </div>
           </div>
         </a>
-        <a class="entry" href="dat://dat-dissected.unassu.me" target="_blank">
-          <div class="entry-content">
+        <a class="entry horz guide" href="https://beakerbrowser.com/docs/how-beaker-works/" target="_blank">
+          <div class="entry-content" data-label="guide">
+            <img class="entry-img" src="/images/dat-hexagon.png">
             <div class="entry-desc">
-              <h5 class="entry-title">Dissecting Dat</h5>
+              <h3 class="entry-title">What is the peer-to-peer Web?</h3>
+              <p class="entry-description">A series of articles explaining Beaker and how p2p affects the Web.</p>
+            </div>
+          </div>
+        </a>
+        <a class="entry horz guide" href="https://beakerbrowser.com/docs/guides/use-a-domain-name-with-dat" target="_blank">
+          <div class="entry-content" data-label="guide">
+            <img class="entry-img" src="/images/dns.png">
+            <div class="entry-desc">
+              <h3 class="entry-title">Use a domain name</h3>
+              <p class="entry-description">How to give your dat site a domain name.</p>
+            </div>
+          </div>
+        </a>
+        <a class="entry horz guide" href="dat://dat-dissected.unassu.me" target="_blank">
+          <div class="entry-content" data-label="guide">
+            <img class="entry-img" src="/images/dissecting-dat.png">
+            <div class="entry-desc">
+              <h3 class="entry-title">Dissecting Dat</h3>
+              <p class="entry-description">An introduction to how Dat works internally.</p>
+            </div>
+          </div>
+        </a>
+
+        <a class="entry horz guide adder" href="https://github.com/beakerbrowser/explore/blob/master/add.md" target="_blank">
+          <div class="entry-content">
+            <div class="entry-img"></div>
+            <div class="entry-desc">
+              <h3 class="entry-title">&raquo; Add yours &laquo;</h3>
             </div>
           </div>
         </a>
@@ -538,7 +675,7 @@
       <!-- music -->
       <div id="content-music" class="content">
         <div class="entries">
-          <a class="entry darkborder stretch" href="dat://cf6cc05939ae006e83b247c3565482167a18787f45dc65e9b81d689a40402e81" target="_blank">
+          <a class="entry stretch" href="dat://cf6cc05939ae006e83b247c3565482167a18787f45dc65e9b81d689a40402e81" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/jerrys-butt-sounds.jpeg">
               <div class="entry-desc">
@@ -546,7 +683,7 @@
               </div>
             </div>
           </a>
-          <a class="entry darkborder stretch" href="dat://filez.destroywithscience.com/" target="_blank">
+          <a class="entry stretch" href="dat://filez.destroywithscience.com/" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/destroy-with-science.jpeg">
               <div class="entry-desc">
@@ -554,7 +691,7 @@
               </div>
             </div>
           </a>
-          <a class="entry darkborder stretch" href="dat://cbaf5d406d1c3435f73afef904523ec9f3ed8b4efd161521205ad3ee2ea85694" target="_blank">
+          <a class="entry stretch" href="dat://cbaf5d406d1c3435f73afef904523ec9f3ed8b4efd161521205ad3ee2ea85694" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/oneohtrix.png">
               <div class="entry-desc">
