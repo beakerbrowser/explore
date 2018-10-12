@@ -89,39 +89,39 @@
         <br>
         <h2 class="heading">What's new</h2>
         <div class="entries space2x">
-          <a class="entry stretch bigfixheight" href="dat://fritter.hashbase.io" target="_blank">
-            <div class="entry-content" data-label="app">
-              <img class="entry-img" src="/images/fritter.png">
-              <div class="entry-desc">
-                <h4 class="entry-title">Fritter</h4>
-                <p class="entry-description">A p2p social networking app</p>
-              </div>
-            </div>
-          </a>
-          <a class="entry stretch bigfixheight" href="dat://editor-cryptic.hashbase.io/" target="_blank">
+          <a class="entry bigfixheight stretch" href="dat://editor-cryptic.hashbase.io/" target="_blank">
             <div class="entry-content" data-label="app">
               <img class="entry-img" src="/images/cryptics-file-editor.png">
               <div class="entry-desc">
-                <h4 class="entry-title">Cryptic's File editor</h4>
+                <h3 class="entry-title">Cryptic's File editor</h3>
                 <p class="entry-description">In-browser editor for dat:// files</p>
               </div>
             </div>
           </a>
-          <a class="entry stretch bigfixheight" href="dat://filez.destroywithscience.com/" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="/images/destroy-with-science.jpeg">
+          <a class="entry bigfixheight stretch" href="dat://dotgrid-neauoire.hashbase.io/" target="_blank">
+            <div class="entry-content" data-label="app">
+              <img class="entry-img border" src="/images/dotgrid.png">
               <div class="entry-desc">
-                <h4 class="entry-title">DESTROY WITH SCIENCE</h4>
-                <p class="entry-description">An album by Digital Devices.</p>
+                <h3 class="entry-title">dotgrid</h3>
+                <p class="entry-description">SVG icon tool</p>
               </div>
             </div>
           </a>
-          <a class="entry stretch bigfixheight" href="dat://dat-dissected.unassu.me" target="_blank">
-            <div class="entry-content" data-label="guide">
-              <img class="entry-img border" src="/images/dissecting-dat.png">
+          <a class="entry bigfixheight stretch" href="dat://fritter.hashbase.io" target="_blank">
+            <div class="entry-content" data-label="app">
+              <img class="entry-img" src="/images/fritter.png">
               <div class="entry-desc">
-                <h4 class="entry-title">Dissecting Dat</h4>
-                <p class="entry-description">An introduction to how Dat works internally.</p>
+                <h3 class="entry-title">Fritter</h3>
+                <p class="entry-description">A p2p social networking app</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry bigfixheight stretch" href="dat://ridder-kodedninja.hashbase.io/" target="_blank">
+            <div class="entry-content" data-label="app">
+              <img class="entry-img" src="/images/ridder.png">
+              <div class="entry-desc">
+                <h3 class="entry-title">Ridder</h3>
+                <p class="entry-description">An RSS reader that you own</p>
               </div>
             </div>
           </a>
@@ -531,7 +531,39 @@
 
     </section>
 
+    <div class="section mission blue-bg">
+      <div class="container narrow columns">
+        <div class="col col-1-2">
+          <h2>Our mission</h2>
+
+          <p>
+            We believe the Web is at its best when it empowers creation and
+            encourages participation. We use peer-to-peer technologies to
+            uphold that vision and build a better Web.
+          </p>
+
+          <p>
+            <a href="https://beakerbrowser.com/about" class="btn white">Learn more about us</a>
+            <a href="https://beakerbrowser.com/install/" class="btn white action">Install Beaker</a>
+          </p>
+        </div>
+
+        <div class="col col-1-2 graphic-container">
+          <button id="mission-good" class="mission-toggle mission-btn btn white active">
+            <span class="fa fa-check"></span>
+          </button>
+
+          <button id="mission-bad" class="mission-toggle mission-btn btn white">
+            <span class="fa fa-times"></span>
+          </button>
+
+          <img class="earth-graphic mission-toggle active" src="/p2p-earth.svg">
+          <img class="earth-graphic mission-toggle" src="/centralized-earth.svg">
+        </div>
+      </div>
+    </div>
 
     <script src="/js/index.js"></script>
+    <script src="/js/mission.js"></script>
   </body>
 </html>

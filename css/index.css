@@ -66,7 +66,9 @@ body {
   text-decoration: none;
 }
 
-.header .nav-link.btn {
+.btn {
+  display: inline-block;
+  text-decoration: none;
   justify-content: center;
   font-size: .9rem;
   font-weight: 600;
@@ -76,11 +78,14 @@ body {
   border-radius: 40px;
   cursor: pointer;
   text-align: center;
-  margin-left: 30px;
 }
 
-.header .nav-link:not(.btn) {
-    margin-left: 30px
+.btn + .btn {
+  margin-left: 5px;
+}
+
+.header .nav-link {
+  margin-left: 30px
 }
 
 .header .nav-link:not(.btn):hover {
@@ -116,16 +121,125 @@ body {
     padding: 0 10px
 }
 
-@media (min-width: 700px) {
-    .container {
-        padding:0
-    }
+.container.narrow {
+  max-width: 900px;
 }
 
 @media (min-width: 700px) {
-    .container {
-        width:90%
-    }
+  .container {
+    padding: 0;
+  }
+}
+
+@media (min-width: 700px) {
+  .container {
+    width: 90%;
+  }
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start
+}
+
+@media (min-width: 700px) {
+  .columns {
+    flex-wrap: nowrap;
+  }
+}
+
+.columns .col-1-2 {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.columns .col-1-2:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 700px) {
+  .columns .col-1-2 {
+    margin-bottom: 0;
+    margin-right: 50px;
+  }
+}
+
+@media (min-width: 750px) {
+  .columns .col-1-2 {
+    flex: 1;
+    text-align: left;
+  }
+}
+
+.mission {
+  margin-top: 100px;
+  padding-top: 80px;
+  background: #5543ff;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mission h2 {
+  font-size: 20.25px;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+.mission p {
+  margin: 0 0 20px;
+}
+
+.mission .graphic-container {
+  text-align: center;
+  overflow: hidden
+}
+
+.mission .earth-graphic {
+  max-width: 350px;
+  margin-bottom: -15px;
+  display: none
+}
+
+.mission .earth-graphic.active {
+  display: inline
+}
+
+.mission .mission-btn {
+  width: 50px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  height: 30px;
+}
+
+.mission .mission-btn#mission-good.active {
+  background: #0ad895;
+  border-color: #0ad895;
+  color: #fff
+}
+
+.mission .mission-btn#mission-bad.active {
+  background: #ED495D;
+  border-color: #ED495D;
+  color: #fff
+}
+
+.mission .btn {
+  height: 30px;
+  color: #fff;
+  border-color: #fff;
+  background: transparent;
+  outline: 0;
+}
+
+.mission .btn.white.action {
+  background: #fff;
+  color: #5543ff;
+  font-weight: 500;
 }
 
 /* explore page */
@@ -134,6 +248,10 @@ body {
 #content {
   margin: 0px auto;
   margin-bottom: 10px;
+}
+
+#content {
+  min-height: 60vh;
 }
 
 .subheader {
@@ -172,7 +290,7 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(210px, 2fr));
 }
 .entries.space2x {
-  grid-gap: 20px;
+  grid-gap: 25px;
 }
 
 @media (max-width: 560px) {

@@ -4,12 +4,10 @@ var $$ = document.querySelectorAll.bind(document)
 // events
 // =
 
-window.addEventListener('load', function () {
-  setCategory(location.hash || 'whats-new')
-  if (!('DatArchive' in window)) {
-    document.body.classList.add('nodat')
-  }
-})
+setCategory(location.hash || 'whats-new')
+if (!('DatArchive' in window)) {
+  document.body.classList.add('nodat')
+}
 
 window.addEventListener('hashchange', function () {
   setCategory(location.hash)
