@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Explore - Beaker Browser</title>
     <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
@@ -25,13 +26,13 @@
 
     <div class="subheader container">
       <nav>
-        <a href="#whats-new">whats new</a>
-        <a href="#guides">guides</a>
-        <a href="#blog-posts-and-talks">blog posts and talks</a>
+        <a href="#whats-new" class="current">what's new</a>
+        <!--<a href="#guides">guides</a>-->
+        <!--<a href="#blog-posts-and-talks">blog posts and talks</a>-->
         <a href="#homepages">user pages</a>
-        <!--<a href="#modules">code modules</a>-->
         <a href="#music">albums</a>
         <a href="#apps">apps</a>
+        <a href="#modules">modules</a>
         <!--<a href="#web-art">web art</a>-->
         <!--<a href="#events">events</a>-->
       </nav>
@@ -39,7 +40,7 @@
 
     <section id="content" class="container">
       <!-- whats-new -->
-      <div id="content-whats-new" class="content">
+      <div id="content-whats-new" class="content current">
         <div class="entries">
           <div class="entry col4 blue big" href="https://hashbase.io" target="_blank">
             <div class="entry-content">
@@ -56,70 +57,66 @@
               </div>
             </div>
           </a>
-          <a class="entry gray category" href="#guides">
-            <div class="entry-content">
-              <div class="entry-desc">
-                <h3 class="entry-title">Guides</h3>
-              </div>
-            </div>
-          </a>
           <a class="entry gray category" href="#homepages">
             <div class="entry-content">
               <div class="entry-desc">
-                <h3 class="entry-title">User pages</h3>
+                <h3 class="entry-title"><i class="far fa-user"></i> User pages</h3>
               </div>
             </div>
           </a>
           <a class="entry gray category" href="#music">
             <div class="entry-content">
               <div class="entry-desc">
-                <h3 class="entry-title">Albums</h3>
+                <h3 class="entry-title"><i class="fas fa-music"></i> Albums</h3>
               </div>
             </div>
           </a>
           <a class="entry gray category" href="#apps">
             <div class="entry-content">
               <div class="entry-desc">
-                <h3 class="entry-title">Apps</h3>
+                <h3 class="entry-title"><i class="far fa-window-maximize"></i> Apps</h3>
               </div>
             </div>
           </a>
-          <a class="entry gray category" href="#blog-posts-and-talks">
+          <a class="entry gray category" href="#modules">
             <div class="entry-content">
               <div class="entry-desc">
-                <h3 class="entry-title">Blog posts</h3>
-              </div>
-            </div>
-          </a>
-          <a class="entry gray category" href="#blog-posts-and-talks">
-            <div class="entry-content">
-              <div class="entry-desc">
-                <h3 class="entry-title">Talks</h3>
+                <h3 class="entry-title"><i class="fas fa-code"></i> Modules</h3>
               </div>
             </div>
           </a>
         </div>
-        <h2 style="border-bottom: 1px solid #ccc; padding: 5px; margin-bottom: 60px">Highlights</h2>
+        <br>
+        <h2 class="heading">What's new</h2>
         <div class="entries">
-          <a class="entry col2" href="dat://fritter.hashbase.io" target="_blank" style="text-align: center; margin-bottom: 60px">
+          <a class="entry stretch bigfixheight" href="dat://fritter.hashbase.io" target="_blank">
             <div class="entry-content" data-label="app">
               <img class="entry-img" src="/images/fritter.png">
               <div class="entry-desc">
-                <h3 class="entry-title">Fritter</h3>
+                <h4 class="entry-title">Fritter</h4>
                 <p class="entry-description">A p2p social networking app</p>
               </div>
             </div>
           </a>
-          <a class="entry col2" href="dat://editor-cryptic.hashbase.io/" target="_blank" style="text-align: center; margin-bottom: 60px">
+          <a class="entry stretch bigfixheight" href="dat://editor-cryptic.hashbase.io/" target="_blank">
             <div class="entry-content" data-label="app">
-              <img class="entry-img" src="/images/editor-cryptic.png">
+              <img class="entry-img" src="/images/cryptics-file-editor.png">
               <div class="entry-desc">
-                <h3 class="entry-title">Files editor</h3>
+                <h4 class="entry-title">Cryptic's File editor</h4>
                 <p class="entry-description">In-browser editor for dat:// files</p>
               </div>
             </div>
           </a>
-          <a class="entry stretch border" href="dat://dat-dissected.unassu.me" target="_blank">
+          <a class="entry stretch bigfixheight" href="dat://filez.destroywithscience.com/" target="_blank">
+            <div class="entry-content">
+              <img class="entry-img" src="/images/destroy-with-science.jpeg">
+              <div class="entry-desc">
+                <h4 class="entry-title">DESTROY WITH SCIENCE</h4>
+                <p class="entry-description">An album by Digital Devices.</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry stretch bigfixheight" href="dat://dat-dissected.unassu.me" target="_blank">
             <div class="entry-content" data-label="guide">
               <img class="entry-img" src="/images/dissecting-dat.png">
               <div class="entry-desc">
@@ -128,187 +125,20 @@
               </div>
             </div>
           </a>
-          <a class="entry stretch border" href="dat://filez.destroywithscience.com/" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="/images/destroy-with-science.jpeg">
-              <div class="entry-desc">
-                <h4 class="entry-title">DESTROY WITH SCIENCE digital devices (album)</h4>
-              </div>
-            </div>
-          </a>
-          <a class="entry border fixheight stretch" href="https://www.youtube.com/watch?v=rJ_WvfF3FN8" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="/images/imagine-this.png">
-              <div class="entry-desc">
-                <h4 class="entry-title">Imagine this: a Web without servers</h4>
-                <p class="entry-description">Most people will never publish independently on the Web. What went wrong?</p>
-              </div>
-            </div>
-          </a>
-          <a class="entry border" href="https://beakerbrowser.com/docs/guides/create-a-markdown-site" target="_blank">
-            <div class="entry-content" data-label="tutorial">
-              <img class="entry-img" src="/images/markdown.png" style="margin: 50px auto 60px;">
-              <div class="entry-desc">
-                <h4 class="entry-title">Create a markdown site</h4>
-                <p class="entry-description">Create Websites in Beaker using only markdown.</p>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-      <!-- apps -->
-      <div id="content-apps" class="content entries">
-          <a class="entry border fixheight stretch" href="dat://fritter.hashbase.io" target="_blank">
-            <div class="entry-content" data-label="app">
-              <img class="entry-img" src="/images/fritter.png">
-              <div class="entry-desc">
-                <h3 class="entry-title">Fritter</h3>
-                <p class="entry-description">A p2p social networking app</p>
-              </div>
-            </div>
-          </a>
-          <a class="entry border fixheight stretch" href="dat://ridder-kodedninja.hashbase.io/" target="_blank">
-            <div class="entry-content" data-label="app">
-              <img class="entry-img" src="/images/ridder.png">
-              <div class="entry-desc">
-                <h3 class="entry-title">Ridder</h3>
-                <p class="entry-description">An RSS reader that you own</p>
-              </div>
-            </div>
-          </a>
-          <a class="entry border fixheight stretch" href="dat://dotgrid-neauoire.hashbase.io/" target="_blank">
-            <div class="entry-content" data-label="app">
-              <img class="entry-img" src="/images/dotgrid.png">
-              <div class="entry-desc">
-                <h3 class="entry-title">dotgrid</h3>
-                <p class="entry-description">SVG icon tool</p>
-              </div>
-            </div>
-          </a>
-          <a class="entry border fixheight stretch" href="dat://editor-cryptic.hashbase.io/" target="_blank">
-            <div class="entry-content" data-label="app">
-              <img class="entry-img" src="/images/editor-cryptic.png">
-              <div class="entry-desc">
-                <h3 class="entry-title">Files editor</h3>
-                <p class="entry-description">In-browser editor for dat:// files</p>
-              </div>
-            </div>
-          </a>
-          <a class="entry border" href="dat://solo-kodedninja.hashbase.io/" target="_blank">
-            <div class="entry-content" data-label="app">
-              <div class="entry-desc">
-                <h3 class="entry-title">solo</h3>
-                <p class="entry-description">The simplest publishing tool</p>
-              </div>
-            </div>
-          </a>
-          <a class="entry border" href="dat://dead-lite.hashbase.io/" target="_blank">
-            <div class="entry-content" data-label="app">
-              <div class="entry-desc">
-                <h3 class="entry-title">dead-lite</h3>
-                <p class="entry-description">blogging / tumblog / content manufacturing device</p>
-              </div>
-            </div>
-          </a>
-          <a class="entry border" href="https://github.com/louiscenter/hypercast" target="_blank">
-            <div class="entry-content" data-label="tool">
-              <div class="entry-desc">
-                <h3 class="entry-title">hypercast</h3>
-                <p class="entry-description">A tool for broadcasting p2p video streams</p>
-              </div>
-            </div>
-          </a>
-          <a class="entry adder" href="https://github.com/beakerbrowser/explore/blob/master/add.md" target="_blank">
-            <div class="entry-content">
-              <div class="entry-desc">
-                <h3 class="entry-title">&raquo; Add yours &laquo;</h3>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-      <!-- web-art -->
-      <div id="content-web-art" class="content">
-        <div class="entries">
-          <a class="entry" href="dat://de037e790893b7113b93bc523c4cf7671acdbc370bfa0acc00e0b3781a83b56b/" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="/images/foule.png">
-            </div>
-          </a>
-          <a class="entry toppad" href="dat://ff176b8c453939142d592e1c2c5eef7c9c69423e1f85bc2560af52e6a8750ab2/" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="/images/hashworms.png">
-            </div>
-          </a>
-          <a class="entry toppad" href="dat://3b1d54e8bf06ae0af1b167d8810d62d5d730de230723ee572655dc8fcd4f1408/" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="/images/cobra.jpg">
-            </div>
-          </a>
-          <a class="entry fixheight toppad" href="dat://pixel-gallery.hashbase.io/" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="/images/pixel-gallery.png">
-            </div>
-          </a>
-          <a class="entry toppad" href="dat://2295a89c2cdfb57ed91b135608627119199d5d834fbaede70a8713b2cedf6fe1#text" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="/images/praise-chorus.png">
-            </div>
-          </a>
-          <a class="entry tomato fixheight toppad" href="dat://78801e775657e93cf5121239d4abf47c3d5f53d73dcb673b3ef8e07063058495" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="/images/sit-up.gif">
-            </div>
-          </a>
-          <a class="entry" href="dat://5b3ac4311a729e56c449e40e543d9e4be0350836313913e4b954a0b209faa17a/" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="/images/clear-skin.jpg">
-            </div>
-          </a>
-          <a class="entry" href="dat://7bb129e7889594e5ec349feffa0e3156a0b77e923d6bf20550842af230ce5923/" target="_blank">
-            <div class="entry-content">
-              <div class="entry-desc">
-                <h5 class="entry-title">peer OULIPO</h5>
-              </div>
-            </div>
-          </a>
-          <a class="entry" href="dat://a04eb25c126025ec6e83d14e1e7eb8b78f3690e75c4785a97668b16802f83b68/" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="/images/guide-to-hypnosis.png">
-            </div>
-          </a>
-          <a class="entry" href="dat://15f8fb2f22c7484c27d6608f0c26c588b81195dd5e5705f3f852192405ced8cf/" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="/images/good-gos.png">
-              <div class="entry-desc">
-                <h5 class="entry-title">A proposal for good gossip</h5>
-              </div>
-            </div>
-          </a>
-          <a class="entry" href="dat://63367ab5e6073b56595c845d061ea2ba9593a8cda27c6fae4c5dec11da7d0f6e/" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="/images/grinding-hr.png">
-            </div>
-          </a>
-          <a class="entry" href="dat://f0594740ee82b42e341b206d7998912351d8adadff7fa924eba40ebc1d91d45d/" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="/images/snakes.png">
-            </div>
-          </a>
-          <a class="entry stretch adder" href="https://github.com/beakerbrowser/explore/blob/master/add.md" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="/images/add.png">
-              <div class="entry-desc">
-                <h5 class="entry-title">&raquo; Add yours &laquo;</h5>
-              </div>
-            </div>
-          </a>
         </div>
       </div>
       <!-- homepages -->
       <div id="content-homepages" class="content">
         <div class="entries profiles">
-          <a class="entry profile border" href="dat://p2p.werd.io" target="_blank">
+          <div class="entry col6 medbig" href="https://hashbase.io" target="_blank">
+            <div class="entry-content">
+              <div class="entry-desc">
+                <h3 class="entry-title">User pages</h3>
+                <p class="entry-description">Personal sites, portfolios, and blogs</p>
+              </div>
+            </div>
+          </div>
+          <a class="entry profile" href="dat://p2p.werd.io" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/p2p-werd-io.png">
               <div class="entry-desc">
@@ -316,7 +146,7 @@
               </div>
             </div>
           </a>
-          <a class="entry profile border" href="dat://datproject.org" target="_blank">
+          <a class="entry profile" href="dat://datproject.org" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/datproject.png">
               <div class="entry-desc">
@@ -324,7 +154,7 @@
               </div>
             </div>
           </a>
-          <a class="entry profile border" href="dat://pfrazee.hashbase.io" target="_blank">
+          <a class="entry profile" href="dat://pfrazee.hashbase.io" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/pfrazee.png">
               <div class="entry-desc">
@@ -332,7 +162,7 @@
               </div>
             </div>
           </a>
-          <a class="entry profile border" href="dat://taravancil.com" target="_blank">
+          <a class="entry profile" href="dat://taravancil.com" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/taravancil.png">
               <div class="entry-desc">
@@ -340,7 +170,7 @@
               </div>
             </div>
           </a>
-          <a class="entry profile border" href="dat://jon-kyle.com" target="_blank">
+          <a class="entry profile" href="dat://jon-kyle.com" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/jonkyle.png">
               <div class="entry-desc">
@@ -348,7 +178,7 @@
               </div>
             </div>
           </a>
-          <a class="entry profile border" href="dat://coolguy.website" target="_blank">
+          <a class="entry profile" href="dat://coolguy.website" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/lavender.gif">
               <div class="entry-desc">
@@ -356,7 +186,7 @@
               </div>
             </div>
           </a>
-          <a class="entry profile border" href="dat://www-webdesserts.hashbase.io" target="_blank">
+          <a class="entry profile" href="dat://www-webdesserts.hashbase.io" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/webdesserts.png">
               <div class="entry-desc">
@@ -364,7 +194,7 @@
               </div>
             </div>
           </a>
-          <a class="entry profile border" href="dat://electro.pizza" target="_blank">
+          <a class="entry profile" href="dat://electro.pizza" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/electro-pizza.png">
               <div class="entry-desc">
@@ -372,7 +202,7 @@
               </div>
             </div>
           </a>
-          <a class="entry profile border" href="dat://olegskl.com" target="_blank">
+          <a class="entry profile" href="dat://olegskl.com" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/olegskl.png">
               <div class="entry-desc">
@@ -380,7 +210,7 @@
               </div>
             </div>
           </a>
-          <a class="entry profile border" href="dat://alexisperrier.hashbase.io" target="_blank">
+          <a class="entry profile" href="dat://alexisperrier.hashbase.io" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/alexisperrier.png">
               <div class="entry-desc">
@@ -388,7 +218,7 @@
               </div>
             </div>
           </a>
-          <a class="entry profile border" href="dat://coston.io" target="_blank">
+          <a class="entry profile" href="dat://coston.io" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/coston.png">
               <div class="entry-desc">
@@ -396,7 +226,7 @@
               </div>
             </div>
           </a>
-          <a class="entry profile border" href="dat://protozoa.nz" target="_blank">
+          <a class="entry profile" href="dat://protozoa.nz" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/protozoa.png">
               <div class="entry-desc">
@@ -404,7 +234,7 @@
               </div>
             </div>
           </a>
-          <a class="entry profile border" href="dat://simple-sengming.hashbase.io" target="_blank">
+          <a class="entry profile" href="dat://simple-sengming.hashbase.io" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/sengming.png">
               <div class="entry-desc">
@@ -412,7 +242,7 @@
               </div>
             </div>
           </a>
-          <a class="entry profile border" href="dat://boucheron.org/brian" target="_blank">
+          <a class="entry profile" href="dat://boucheron.org/brian" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/boucheron.png">
               <div class="entry-desc">
@@ -420,7 +250,7 @@
               </div>
             </div>
           </a>
-          <a class="entry profile border" href="dat://chad.is" target="_blank">
+          <a class="entry profile" href="dat://chad.is" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/chad-is.png">
               <div class="entry-desc">
@@ -428,7 +258,7 @@
               </div>
             </div>
           </a>
-          <a class="entry profile border" href="dat://about-dferber.hashbase.io" target="_blank">
+          <a class="entry profile" href="dat://about-dferber.hashbase.io" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/about-dferber.png">
               <div class="entry-desc">
@@ -436,7 +266,7 @@
               </div>
             </div>
           </a>
-          <a class="entry profile border" href="dat://whois-andrewchou.hashbase.io" target="_blank">
+          <a class="entry profile" href="dat://whois-andrewchou.hashbase.io" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/whois-andrewchou.png">
               <div class="entry-desc">
@@ -444,7 +274,7 @@
               </div>
             </div>
           </a>
-          <a class="entry profile border" href="dat://www.krismuniz.com" target="_blank">
+          <a class="entry profile" href="dat://www.krismuniz.com" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/krismuniz.png">
               <div class="entry-desc">
@@ -452,7 +282,7 @@
               </div>
             </div>
           </a>
-          <a class="entry profile border" href="dat://ismail.hashbase.io" target="_blank">
+          <a class="entry profile" href="dat://ismail.hashbase.io" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/ismail.jpg">
               <div class="entry-desc">
@@ -470,238 +300,38 @@
           </a>
         </div>
       </div>
-      <!-- posts-pods-talks -->
-      <div id="content-blog-posts-and-talks" class="content">
-        <div class="entries">
-          <a class="entry article border col3 horz" href="https://www.youtube.com/watch?v=rJ_WvfF3FN8" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="/images/imagine-this.png">
-              <div class="entry-desc">
-                <h3 class="entry-title">Imagine this: a Web without servers</h3>
-                <p class="entry-description">The Web was envisioned as an open platform for publishing and sharing information, but that vision has been lost: most people will never publish independently on the Web. What went wrong?</p>
-              </div>
-            </div>
-          </a>
-          <a class="entry article border fixheight stretch" href="https://www.youtube.com/watch?v=-ep0ZIe6i10" target="_blank">
-            <div class="entry-content" data-label="talk">
-              <img class="entry-img" src="/images/pdxnode.png">
-              <div class="entry-desc">
-                <h5 class="entry-title">The Peer-to-Peer Web</h5>
-                <p class="entry-description">Talk by Paul Frazee, given at PDXNode on September 14th, 2017.</p>
-              </div>
-            </div>
-          </a>
-          <div class="entry gray"><!--empty--></div>
-          <a class="entry article border fixheight" href="dat://dat-cast.hashbase.io" target="_blank">
-            <div class="entry-content" data-label="podcast">
-              <img class="entry-img" src="/images/datcast.jpg">
-              <div class="entry-desc">
-                <h5 class="entry-title">Datcast</h5>
-                <p class="entry-description">A podcast series by Bret Comnes and Jim Pick</p>
-              </div>
-            </div>
-          </a>
-          <a class="entry article border stretch" href="https://changelog.com/jsparty/42" target="_blank">
-            <div class="entry-content" data-label="podcast">
-              <img class="entry-img" src="/images/jsparty.png">
-              <div class="entry-desc">
-                <h5 class="entry-title">JS Party: Decentralizing the Web with Beaker</h5>
-              </div>
-            </div>
-          </a>
-          <div class="entry gray"><!--empty--></div>
-          <a class="entry article border col2 horz" href="https://pfrazee.hashbase.io/blog/why-p2p-deserves-another-chance" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="/images/why-p2p-deserves-another-chance.png">
-              <div class="entry-desc">
-                <h3 class="entry-title">Why P2P deserves another chance</h3>
-                <p class="entry-description"> When the cloud went mainstream, P2P tech got overlooked. Rather than trying to fix blockchains, we should be looking at P2P again.</p>
-              </div>
-            </div>
-          </a>
-          <a class="entry article border stretch" href="https://ar.al/2018/08/04/multiwriter-dat-could-power-the-next-web/" target="_blank">
-            <div class="entry-content" data-label="post">
-              <img class="entry-img" src="/images/could-power-the-next-web.png">
-              <div class="entry-desc">
-                <h5 class="entry-title">Multi-writer Dat could power the next Web</h5>
-              </div>
-            </div>
-          </a>
-          <a class="entry article border fixheight stretch" href="https://pfrazee.hashbase.io/blog/dat-and-servers" target="_blank">
-            <div class="entry-content" data-label="post">
-              <img class="entry-img" src="/images/global-fetch-prompt.png">
-              <div class="entry-desc">
-                <h5 class="entry-title">How do dat:// sites interact with servers?</h5>
-                <p class="entry-description">What are the tools for accessing https services from dat?</p>
-              </div>
-            </div>
-          </a>
-          <a class="entry article border fixheight stretch" href="https://infocivics.com" target="_blank">
-            <div class="entry-content" data-label="essay">
-              <img class="entry-img" src="/images/statue-of-liberty.jpg">
-              <div class="entry-desc">
-                <h5 class="entry-title">Information Civics</h5>
-                <p class="entry-description">To change the distribution of authority, we should study how authority works.</p>
-              </div>
-            </div>
-          </a>
-          <a class="entry article border fixheight stretch" href="https://www.youtube.com/watch?v=x-ffpAkviM0" target="_blank">
-            <div class="entry-content" data-label="talk">
-              <img class="entry-img" src="/images/state-of-nature.png">
-              <div class="entry-desc">
-                <h5 class="entry-title">Formalizing user rights on the Web</h5>
-                <p class="entry-description">How do we moderate our spaces without falling into censorship?</p>
-              </div>
-            </div>
-          </a>
-          <a class="entry adder" href="https://github.com/beakerbrowser/explore/blob/master/add.md" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="/images/add.png">
-              <div class="entry-desc">
-                <h5 class="entry-title">&raquo; Add yours &laquo;</h5>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-      <!-- guides -->
-      <div id="content-guides" class="content entries guides">
-        <a class="entry horz guide border" href="https://beakerbrowser.com/docs/guides/publish-a-peer-to-peer-website#publish-a-website-with-beaker" target="_blank">
-          <div class="entry-content" data-label="tutorial">
-            <img class="entry-img" src="/images/create-website.png">
-            <div class="entry-desc">
-              <h3 class="entry-title">Publish a website with Beaker</h3>
-              <p class="entry-description">How to publish new peer-to-peer websites using Beaker's builtin tools.</p>
-            </div>
-          </div>
-        </a>
-        <a class="entry horz guide border" href="https://beakerbrowser.com/docs/guides/create-a-markdown-site" target="_blank">
-          <div class="entry-content" data-label="tutorial">
-            <img class="entry-img" src="/images/markdown.png">
-            <div class="entry-desc">
-              <h3 class="entry-title">Create a markdown site</h3>
-              <p class="entry-description">Create Websites in Beaker using only markdown.</p>
-            </div>
-          </div>
-        </a>
-        <a class="entry horz guide border" href="dat://taravancil.com/blog/how-i-publish-taravancil-com/" target="_blank">
-          <div class="entry-content" data-label="guide">
-            <img class="entry-img" src="/images/how-i-publish-taravancil-com.png">
-            <div class="entry-desc">
-              <h3 class="entry-title">How I publish taravancil.com</h3>
-              <p class="entry-description">A guide to publishing a p2p website from the command-line using Hugo, Homebase, and the Dat CLI.</p>
-            </div>
-          </div>
-        </a>
-        <a class="entry horz guide border" href="https://beakerbrowser.com/docs/how-beaker-works/" target="_blank">
-          <div class="entry-content" data-label="guide">
-            <img class="entry-img" src="/images/dat-hexagon.png">
-            <div class="entry-desc">
-              <h3 class="entry-title">What is the peer-to-peer Web?</h3>
-              <p class="entry-description">A series of articles explaining Beaker and how p2p affects the Web.</p>
-            </div>
-          </div>
-        </a>
-        <a class="entry horz guide border" href="https://beakerbrowser.com/docs/guides/use-a-domain-name-with-dat" target="_blank">
-          <div class="entry-content" data-label="guide">
-            <img class="entry-img" src="/images/dns.png">
-            <div class="entry-desc">
-              <h3 class="entry-title">Use a domain name</h3>
-              <p class="entry-description">How to give your dat site a domain name.</p>
-            </div>
-          </div>
-        </a>
-        <a class="entry horz guide border" href="dat://dat-dissected.unassu.me" target="_blank">
-          <div class="entry-content" data-label="guide">
-            <img class="entry-img" src="/images/dissecting-dat.png">
-            <div class="entry-desc">
-              <h3 class="entry-title">Dissecting Dat</h3>
-              <p class="entry-description">An introduction to how Dat works internally.</p>
-            </div>
-          </div>
-        </a>
-
-        <a class="entry horz guide adder" href="https://github.com/beakerbrowser/explore/blob/master/add.md" target="_blank">
-          <div class="entry-content">
-            <div class="entry-img"></div>
-            <div class="entry-desc">
-              <h3 class="entry-title">&raquo; Add yours &laquo;</h3>
-            </div>
-          </div>
-        </a>
-      </div>
-      <!-- events -->
-      <div id="content-events" class="content">
-        <h2>Past</h2>
-        <div class="entries">
-          <a class="entry" href="dat://peer-to-peer-web.com/los-angeles" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="dat://peer-to-peer-web.com/content/los-angeles/la.png">
-              <div class="entry-desc">
-                <h5 class="entry-title">Peer-to-Peer Web / Los Angeles</h5>
-              </div>
-            </div>
-          </a>
-          <a class="entry" href="dat://peer-to-peer-web.com/nyc" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="dat://peer-to-peer-web.com/content/nyc/nyc.png">
-              <div class="entry-desc">
-                <h5 class="entry-title">Peer-to-Peer Web / NYC</h5>
-              </div>
-            </div>
-          </a>
-          <a class="entry" href="dat://peer-to-peer-web.com/berlin" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="dat://peer-to-peer-web.com/content/berlin/berlin.png">
-              <div class="entry-desc">
-                <h5 class="entry-title">Peer-to-Peer Web / Berlin</h5>
-              </div>
-            </div>
-          </a>
-          <a class="entry toppad" href="dat://7fdbbc7a1726e0351912f380399f303bcf55c7271055c1b005aac0aa82370412" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="/images/cyber-sweep.png">
-              <div class="entry-desc">
-                <h5 class="entry-title">Cyber Sweep Day</h5>
-                <p class="entry-description">Like Earth Day but instead of cleaning Mother Earth you are tidying up your browser, device, and internet presence.</p>
-              </div>
-            </div>
-          </a>
-          <a class="entry" href="dat://fullstackfest.com/" target="_blank">
-            <div class="entry-content">
-              <img class="entry-img" src="/images/fullstack-fest.png">
-              <div class="entry-desc">
-                <h5 class="entry-title">Fullstack Fest</h5>
-                <p class="entry-description">A week-long, language-agnostic conference for curious developers</p>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
       <!-- music -->
       <div id="content-music" class="content">
         <div class="entries">
-          <a class="entry border stretch" href="dat://cf6cc05939ae006e83b247c3565482167a18787f45dc65e9b81d689a40402e81" target="_blank">
+          <div class="entry col4 medbig" href="https://hashbase.io" target="_blank">
+            <div class="entry-content">
+              <div class="entry-desc">
+                <h3 class="entry-title">Albums</h3>
+                <p class="entry-description">Music self-published on the p2p Web</p>
+              </div>
+            </div>
+          </div>
+          <a class="entry fixbigheight stretch" href="dat://cf6cc05939ae006e83b247c3565482167a18787f45dc65e9b81d689a40402e81" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/jerrys-butt-sounds.jpeg">
               <div class="entry-desc">
-                <h5 class="entry-title">Jerry's Butt Sounds 2</h5>
+                <h4 class="entry-title">Jerry's Butt Sounds 2</h4>
               </div>
             </div>
           </a>
-          <a class="entry border stretch" href="dat://filez.destroywithscience.com/" target="_blank">
+          <a class="entry fixbigheight stretch" href="dat://filez.destroywithscience.com/" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/destroy-with-science.jpeg">
               <div class="entry-desc">
-                <h5 class="entry-title">DESTROY WITH SCIENCE digital devices</h5>
+                <h4 class="entry-title">DESTROY WITH SCIENCE digital devices</h4>
               </div>
             </div>
           </a>
-          <a class="entry border stretch" href="dat://cbaf5d406d1c3435f73afef904523ec9f3ed8b4efd161521205ad3ee2ea85694" target="_blank">
+          <a class="entry fixbigheight stretch" href="dat://cbaf5d406d1c3435f73afef904523ec9f3ed8b4efd161521205ad3ee2ea85694" target="_blank">
             <div class="entry-content">
               <img class="entry-img" src="/images/oneohtrix.png">
               <div class="entry-desc">
-                <h5 class="entry-title">ONEOHTRIX POINT NEVER</h5>
+                <h4 class="entry-title">ONEOHTRIX POINT NEVER</h4>
               </div>
             </div>
           </a>
@@ -709,7 +339,188 @@
             <div class="entry-content">
               <img class="entry-img" src="/images/add.png">
               <div class="entry-desc">
-                <h5 class="entry-title">&raquo; Add yours &laquo;</h5>
+                <h4 class="entry-title">&raquo; Add yours &laquo;</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- apps -->
+      <div id="content-apps" class="content">
+        <div class="entries">
+          <div class="entry col4 medbig" href="https://hashbase.io" target="_blank">
+            <div class="entry-content">
+              <div class="entry-desc">
+                <h3 class="entry-title">Apps</h3>
+                <p class="entry-description">Social media, editors, blogging, CMS, video streaming, and more.</p>
+              </div>
+            </div>
+          </div>
+          <a class="entry bigfixheight stretch" href="dat://editor-cryptic.hashbase.io/" target="_blank">
+            <div class="entry-content" data-label="app">
+              <img class="entry-img" src="/images/cryptics-file-editor.png">
+              <div class="entry-desc">
+                <h3 class="entry-title">Cryptic's File editor</h3>
+                <p class="entry-description">In-browser editor for dat:// files</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry bigfixheight stretch" href="dat://dotgrid-neauoire.hashbase.io/" target="_blank">
+            <div class="entry-content" data-label="app">
+              <img class="entry-img" src="/images/dotgrid.png">
+              <div class="entry-desc">
+                <h3 class="entry-title">dotgrid</h3>
+                <p class="entry-description">SVG icon tool</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry bigfixheight stretch" href="dat://fritter.hashbase.io" target="_blank">
+            <div class="entry-content" data-label="app">
+              <img class="entry-img" src="/images/fritter.png">
+              <div class="entry-desc">
+                <h3 class="entry-title">Fritter</h3>
+                <p class="entry-description">A p2p social networking app</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry bigfixheight stretch" href="dat://ridder-kodedninja.hashbase.io/" target="_blank">
+            <div class="entry-content" data-label="app">
+              <img class="entry-img" src="/images/ridder.png">
+              <div class="entry-desc">
+                <h3 class="entry-title">Ridder</h3>
+                <p class="entry-description">An RSS reader that you own</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry" href="dat://solo-kodedninja.hashbase.io/" target="_blank">
+            <div class="entry-content" data-label="app">
+              <div class="entry-desc">
+                <h3 class="entry-title">solo</h3>
+                <p class="entry-description">The simplest publishing tool</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry" href="dat://dead-lite.hashbase.io/" target="_blank">
+            <div class="entry-content" data-label="app">
+              <div class="entry-desc">
+                <h3 class="entry-title">dead-lite</h3>
+                <p class="entry-description">blogging / tumblog / content manufacturing device</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry" href="https://github.com/louiscenter/hypercast" target="_blank">
+            <div class="entry-content" data-label="tool">
+              <div class="entry-desc">
+                <h3 class="entry-title">hypercast</h3>
+                <p class="entry-description">A tool for broadcasting p2p video streams</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry adder" href="https://github.com/beakerbrowser/explore/blob/master/add.md" target="_blank">
+            <div class="entry-content">
+              <div class="entry-desc">
+                <h3 class="entry-title">&raquo; Add yours &laquo;</h3>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- modules -->
+      <div id="content-modules" class="content">
+        <div class="entries" style="margin-bottom: 10px">
+          <div class="entry col4 medbig" href="https://hashbase.io" target="_blank">
+            <div class="entry-content">
+              <div class="entry-desc">
+                <h3 class="entry-title">Modules</h3>
+                <p class="entry-description">Code libraries, Web Components, and reusable snippets.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3 class="heading">For dat:// apps</h3>
+        <div class="entries">
+          <a class="entry" href="https://testify.hashbase.io/?test_url=https%3A%2F%2Ftestify.hashbase.io%2Ftests%2Findex.js" target="_blank">
+            <div class="entry-content" data-label="tool">
+              <div class="entry-desc">
+                <h3 class="entry-title">testify</h3>
+                <p class="entry-description">An in-browser dat:// test runner.</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry" href="https://github.com/beakerbrowser/dat-archive-file-diff" target="_blank">
+            <div class="entry-content" data-label="tool">
+              <div class="entry-desc">
+                <h3 class="entry-title">dat-archive-file-diff</h3>
+                <p class="entry-description">Get line-by-line diffs of text files in Dat archives.</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry" href="dat://source-explorer.hashbase.io/" target="_blank">
+            <div class="entry-content" data-label="tool">
+              <div class="entry-desc">
+                <h3 class="entry-title">source-explorer</h3>
+                <p class="entry-description">A helpful UI widget for viewing the source of a dat site.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <h3 class="heading">For node.js</h3>
+        <div class="entries">
+          <a class="entry" href="https://github.com/beakerbrowser/dat-node" target="_blank">
+            <div class="entry-content" data-label="tool">
+              <div class="entry-desc">
+                <h3 class="entry-title">@beaker/dat-node</h3>
+                <p class="entry-description">A toolkit for writing Dat-based services in nodejs.</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry" href="https://github.com/pfrazee/node-http-dat-forum" target="_blank">
+            <div class="entry-content" data-label="tool">
+              <div class="entry-desc">
+                <h3 class="entry-title">node-http-dat-forum</h3>
+                <p class="entry-description">A Web forum built on Nodejs, Dat and HTTP.</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry" href="https://github.com/pfrazee/parse-dat-url" target="_blank">
+            <div class="entry-content" data-label="tool">
+              <div class="entry-desc">
+                <h3 class="entry-title">parse-dat-url</h3>
+                <p class="entry-description">Nodejs url.parse updated to support versioned dat URLs. </p>
+              </div>
+            </div>
+          </a>
+          <a class="entry" href="https://github.com/datprotocol/dat-dns" target="_blank">
+            <div class="entry-content" data-label="tool">
+              <div class="entry-desc">
+                <h3 class="entry-title">dat-dns</h3>
+                <p class="entry-description">Nodejs module to issue DNS lookups for Dat archives.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <h3 class="heading">CLI tools</h3>
+        <div class="entries">
+          <a class="entry" href="https://github.com/datproject/dat" target="_blank">
+            <div class="entry-content" data-label="tool">
+              <div class="entry-desc">
+                <h3 class="entry-title">dat cli</h3>
+                <p class="entry-description">A command-line tool for sharing and downloading dats.</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry" href="https://github.com/pfrazee/tmpdat" target="_blank">
+            <div class="entry-content" data-label="tool">
+              <div class="entry-desc">
+                <h3 class="entry-title">tmpdat</h3>
+                <p class="entry-description">Creates a temporary in-memory dat from any folder (CLI tool).</p>
+              </div>
+            </div>
+          </a>
+          <a class="entry adder" href="https://github.com/beakerbrowser/explore/blob/master/add.md" target="_blank">
+            <div class="entry-content">
+              <div class="entry-desc">
+                <h3 class="entry-title">&raquo; Add yours &laquo;</h3>
               </div>
             </div>
           </a>
