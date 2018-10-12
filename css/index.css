@@ -288,6 +288,7 @@ body {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fill, minmax(210px, 2fr));
+  margin-bottom: 40px;
 }
 .entries.space2x {
   grid-gap: 25px;
@@ -476,7 +477,7 @@ a.entry:hover {
 }
 
 .entry.medbig .entry-content {
-  padding: 20px 0;
+  padding: 20px 0 10px;
 }
 
 .entry.medbig h3 {
