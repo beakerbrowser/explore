@@ -110,7 +110,7 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 95%;
     max-width: 1050px;
     margin: auto;
     padding: 0 10px
@@ -119,12 +119,6 @@ body {
 @media (min-width: 700px) {
     .container {
         padding:0
-    }
-}
-
-@media (min-width: 550px) {
-    .container {
-        width:95%
     }
 }
 
@@ -324,18 +318,27 @@ a.entry:hover .entry-title {
   border: 2px solid #000;
 }
 
-.entry.horz .entry-content {
-  display: flex;
-  height: 100%;
-  padding-bottom: 0;
+@media (max-width: 539px) {
+  .entry.horz .entry-img {
+    padding-top: 20px;
+    margin: 0 auto;
+  }
 }
 
-.entry.horz .entry-img {
-  max-height: none;
-}
+@media (min-width: 540px) {
+  .entry.horz .entry-content {
+    display: flex;
+    height: 100%;
+    padding-bottom: 0;
+  }
 
-.entry.horz .entry-desc {
-  flex: 1;
+  .entry.horz .entry-img {
+    max-height: none;
+  }
+
+  .entry.horz .entry-desc {
+    flex: 1;
+  }
 }
 
 .entry.toppad {
@@ -346,8 +349,16 @@ a.entry:hover .entry-title {
   padding-top: 2rem;
 }
 
-.entry.stretch .entry-img {
-  width: 100%;
+@media (max-width: 559px) {
+  .entry.stretch .entry-img {
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 560px) {
+  .entry.stretch .entry-img {
+    width: 100%;
+  }
 }
 
 .entry.fixheight .entry-img {
@@ -479,6 +490,14 @@ a.entry:hover .entry-title {
 .guide .entry-img {
   margin: 0 50px;
   width: 150px;
+}
+
+@media (max-width: 550px) {
+  .guide .entry-img {
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 0 !important;
+  }
 }
 
 .guide .entry-desc {
