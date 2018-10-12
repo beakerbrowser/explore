@@ -19,7 +19,7 @@
 html,
 body {
   margin: 0;
-  font-family: "Inter UI";
+  font-family: "Inter UI", Arial;
 }
 
 /* imported from the main beaker site */
