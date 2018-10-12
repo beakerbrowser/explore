@@ -1,18 +1,18 @@
 @font-face {
   font-family: 'Inter UI';
-  src: url("/fonts/Inter-UI-Regular.woff") format("woff");
+  src: url("/webfonts/Inter-UI-Regular.woff") format("woff");
   font-weight: regular
 }
 
 @font-face {
   font-family: 'Inter UI';
-  src: url("/fonts/Inter-UI-Medium.woff") format("woff");
+  src: url("/webfonts/Inter-UI-Medium.woff") format("woff");
   font-weight: 500
 }
 
 @font-face {
   font-family: 'Inter UI';
-  src: url("/fonts/Inter-UI-Bold.woff") format("woff");
+  src: url("/webfonts/Inter-UI-Bold.woff") format("woff");
   font-weight: 700
 }
 
@@ -457,6 +457,10 @@ a.entry:hover {
 .entry.category .fas,
 .entry.category .far {
   float: right;
+  opacity: 0.5;
+  position: relative;
+  right: 4px;
+  top: 1px;
 }
 
 .entry.adder .entry-img {
