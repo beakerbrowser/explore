@@ -262,8 +262,20 @@ body {
   display: flex;
 }
 @media (max-width: 800px) {
+  .subheader {
+    margin: 20px 0 20px;
+    padding: 20px 0 20px;
+    background: #eee;
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .subheader::-webkit-scrollbar { 
+    display: none; 
+  }
   .subheader nav {
-    display: none;
+    line-height: 1.6;
+    white-space: nowrap;
+    margin: 0 20px;
   }
 }
 
@@ -336,8 +348,11 @@ body {
 
 @media (max-width: 980px) {
   .col2,
-  .col4 {
+  .col4, {
     grid-column: auto / span 3;
+  }
+  .col6 {
+    grid-column: auto / span 4;
   }
 }
 
@@ -347,6 +362,9 @@ body {
   .col4 {
     grid-column: auto / span 2;
   }
+  .col6 {
+    grid-column: auto / span 3;
+  }
 }
 
 @media (max-width: 560px) {
@@ -354,6 +372,9 @@ body {
   .col3,
   .col4 {
     grid-column: auto / span 1;
+  }
+  .col6 {
+    grid-column: auto / span 2;
   }
 }
 
@@ -533,12 +554,6 @@ a.entry:hover {
   padding-top: 2rem;
 }
 
-@media (max-width: 559px) {
-  .entry.stretch .entry-img {
-    padding-top: 20px;
-  }
-}
-
 @media (min-width: 560px) {
   .entry.stretch .entry-img {
     width: 100%;
@@ -578,7 +593,7 @@ a.entry:hover {
 
 
 .entry.gray {
-  background: #ddd;
+  background: #e5e5e5;
 }
 .entry.gray:hover {
   background: #d0d0d0;
