@@ -19,6 +19,7 @@ function setCategory (v) {
   if (currentCategory.charAt(0) === '#') {
     currentCategory = currentCategory.slice(1)
   }
+  currentCategory = currentCategory || 'whats-new'
 
   try { $('nav a.current').classList.remove('current') } catch (e) {}
   $('nav a[href="#'+currentCategory+'"]').classList.add('current')

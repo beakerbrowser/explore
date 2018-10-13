@@ -261,23 +261,6 @@ body {
 .subheader nav {
   display: flex;
 }
-@media (max-width: 800px) {
-  .subheader {
-    margin: 20px 0 20px;
-    padding: 20px 0 20px;
-    background: #eee;
-    width: 100%;
-    overflow-x: scroll;
-  }
-  .subheader::-webkit-scrollbar { 
-    display: none; 
-  }
-  .subheader nav {
-    line-height: 1.6;
-    white-space: nowrap;
-    margin: 0 20px;
-  }
-}
 
 .subheader nav a {
   margin-right: 10px;
@@ -294,6 +277,31 @@ body {
 .subheader nav a.current {
   background: #000;
   color: #fff;
+}
+
+@media (max-width: 800px) {
+  .subheader {
+    margin: 20px 0 20px;
+    padding: 20px 0 20px;
+    background: #eee;
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .subheader::-webkit-scrollbar { 
+    display: none; 
+  }
+  .subheader nav {
+    line-height: 1.6;
+    white-space: nowrap;
+  }
+
+  /* spacer elements */
+  .subheader nav:before,
+  .subheader nav:after {
+    content: ' ';
+    display: block;
+    padding: 0 10px;
+  }
 }
 
 .entries {
