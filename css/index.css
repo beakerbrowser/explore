@@ -450,7 +450,6 @@ h3.heading.orange {
 
 a.entry {
   background: none;
-  transition: background 0.5s;
 }
 
 a.entry:hover {
@@ -698,19 +697,18 @@ nav a.orange.current {
 }
 
 /* dat support modifier */
-.nodat a.entry {
+.nodat .entry[href^="dat://"] {
   background: none;
-  transition: background 1s;
+  transition: background 0.35s;
 }
-.nodat .entry .entry-content {
+.nodat .entry[href^="dat://"] .entry-content {
   opacity: 1;
-  transition: opacity 1s;
+  transition: opacity 0.35s;
 }
 
 .nodat .entry[href^="dat://"]:hover .entry-content {
   position: relative;
   opacity: 0.25;
-  transition: opacity 0.5s;
 }
 
 .nodat .entry[href^="dat://"]:hover:before {
@@ -723,7 +721,7 @@ nav a.orange.current {
   padding: 5px;
   z-index: 1;
   font-size: 12px;
-  animation: show 1.5s forwards;
+  animation: show 0.75s forwards;
 }
 
 /* articles */
