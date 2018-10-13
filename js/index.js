@@ -26,4 +26,10 @@ function setCategory (v) {
 
   try { $('.content.current').classList.remove('current') } catch (e) {}
   $('#content-' + currentCategory).classList.add('current')
+
+  // failsafe, fallback to whats-new
+  if (!$('nav a.current')) {
+    $('nav a[href="#whats-new"]').classList.add('current')
+    $('#content-whats-new').classList.add('current')
+  }
 }
