@@ -448,6 +448,11 @@ h3.heading.orange {
   border-radius: 4px;
 }
 
+a.entry {
+  background: none;
+  transition: background 0.5s;
+}
+
 a.entry:hover {
   background: #f5f5f5;
 }
@@ -693,22 +698,32 @@ nav a.orange.current {
 }
 
 /* dat support modifier */
+.nodat a.entry {
+  background: none;
+  transition: background 1s;
+}
+.nodat .entry .entry-content {
+  opacity: 1;
+  transition: opacity 1s;
+}
 
 .nodat .entry[href^="dat://"]:hover .entry-content {
   position: relative;
   opacity: 0.25;
+  transition: opacity 0.5s;
 }
 
 .nodat .entry[href^="dat://"]:hover:before {
   content: 'Requires the Beaker browser to view';
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 5px;
+  left: 5px;
   background: #111;
   color: #fff;
-  padding: 10px;
+  padding: 5px;
   z-index: 1;
   font-size: 12px;
+  animation: show 1.5s forwards;
 }
 
 /* articles */
@@ -783,4 +798,13 @@ nav a.orange.current {
 
 .guide.adder {
   padding: 40px 0;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
