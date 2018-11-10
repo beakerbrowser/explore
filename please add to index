@@ -1,0 +1,9 @@
+         <a class="entry bigfixheight stretch" href="dat://sleepingcowboy.hashbase.io/" target="_blank">
+            <div class="entry-content" data-label="app">
+              <img class="entry-img" src="/images/sleepingcowboy.png">
+              <div class="entry-desc">
+                <h3 class="entry-title">Sleeping Cowboy Studio</h3>
+                <p class="entry-description">An Online Showcase for My Sculpture</p>
+              </div>
+            </div>
+          </a>
