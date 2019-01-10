@@ -1,10 +1,10 @@
 # Explore the peer-to-peer Web
 
-A curated list of peer-to-peer websites and apps. 
+A curated list of peer-to-peer websites and apps.
 
 ## Add your site
 
-[File an issue](/issues) or [open a Pull Request](/pulls) with your site. Be sure to include:
+[File an issue](../../issues) or [open a Pull Request](../../pulls) with your site. Be sure to include:
 
  - Which category
  - An image (if you have one)
