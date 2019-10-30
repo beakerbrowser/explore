@@ -1,4 +1,4 @@
-# Explore the peer-to-peer Web
+# [Explore the peer-to-peer Web](https://explore.beakerbrowser.com/)
 
 A curated list of peer-to-peer websites and apps.
 
