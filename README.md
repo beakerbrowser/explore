@@ -1,4 +1,4 @@
-# Explore the peer-to-peer Web
+# Explore the peer-to-peer Website
 
 A curated list of peer-to-peer websites and apps.
 
